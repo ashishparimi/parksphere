@@ -391,7 +391,6 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
   const [hoveredPark, setHoveredPark] = useState<Park | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [selectedPark, setSelectedPark] = useState<Park | null>(null);
-  const [skyGradient, setSkyGradient] = useState(0);
   const [shouldResetCamera, setShouldResetCamera] = useState(false);
 
   useEffect(() => {
@@ -399,23 +398,9 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
     
-    const handleWheel = (e: WheelEvent) => {
-      // Only change sky gradient with Shift+scroll
-      if (e.shiftKey) {
-        e.preventDefault();
-        setSkyGradient(prev => {
-          const next = prev + e.deltaY * 0.001;
-          return Math.max(0, Math.min(1, next));
-        });
-      }
-      // Normal scroll is handled by orbit controls for zoom
-    };
-    
     window.addEventListener('mousemove', handleMouseMove);
-    window.addEventListener('wheel', handleWheel, { passive: false });
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('wheel', handleWheel);
     };
   }, []);
   
@@ -426,29 +411,15 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
   
   const handleBackToGlobe = () => {
     setSelectedPark(null);
-    setSkyGradient(0);
     // Trigger camera reset
     setShouldResetCamera(true);
     setTimeout(() => setShouldResetCamera(false), 100);
   };
 
-  // Dynamic sky colors based on scroll
-  const skyColors = {
-    start: { r: 0, g: 0, b: 0 }, // Black space
-    end: { r: 135, g: 206, b: 235 } // Sky blue
-  };
-  
-  const currentColor = {
-    r: Math.round(skyColors.start.r + (skyColors.end.r - skyColors.start.r) * skyGradient),
-    g: Math.round(skyColors.start.g + (skyColors.end.g - skyColors.start.g) * skyGradient),
-    b: Math.round(skyColors.start.b + (skyColors.end.b - skyColors.start.b) * skyGradient)
-  };
-
   return (
     <div 
-      className="fixed inset-0 transition-all duration-700"
+      className="fixed inset-0 bg-black"
       style={{ 
-        backgroundColor: `rgb(${currentColor.r}, ${currentColor.g}, ${currentColor.b})`,
         cursor: 'none'
       }}>
       <Canvas
