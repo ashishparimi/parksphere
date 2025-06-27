@@ -390,7 +390,6 @@ function CameraController({ targetPark, shouldReset }: {
 export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId, shouldResetCamera: externalShouldReset }: RealisticEarthGlobeProps) {
   const [hoveredPark, setHoveredPark] = useState<Park | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [selectedPark, setSelectedPark] = useState<Park | null>(null);
   const [shouldResetCamera, setShouldResetCamera] = useState(false);
 
   useEffect(() => {
@@ -405,15 +404,7 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
   }, []);
   
   const handleParkClick = (park: Park) => {
-    setSelectedPark(selectedPark?.id === park.id ? null : park);
     onParkClick(park);
-  };
-  
-  const handleBackToGlobe = () => {
-    setSelectedPark(null);
-    // Trigger camera reset
-    setShouldResetCamera(true);
-    setTimeout(() => setShouldResetCamera(false), 100);
   };
 
   return (
@@ -501,15 +492,15 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
         
         {/* Camera controller for cinematic movements */}
         <CameraController 
-          targetPark={selectedPark} 
+          targetPark={null} 
           shouldReset={shouldResetCamera || externalShouldReset}
         />
         
         {/* Orbit controls - always enabled but with conditions */}
         <SmoothOrbitControls
           enablePan={false}
-          enableZoom={!selectedPark}
-          enableRotate={!selectedPark}
+          enableZoom={true}
+          enableRotate={true}
           zoomSpeed={0.8}
           rotateSpeed={0.6}
           minDistance={2.5}
@@ -547,19 +538,6 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
       {/* Compass cursor */}
       <CompassCursor />
       
-      {/* Back button when park is selected - top left */}
-      {selectedPark && (
-        <button
-          onClick={handleBackToGlobe}
-          className="absolute top-8 left-8 z-50 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-white hover:bg-white/20 transition-all flex items-center gap-2 border border-white/20"
-          style={{ pointerEvents: 'auto' }}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Back to Globe
-        </button>
-      )}
     </div>
   );
 }
