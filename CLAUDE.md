@@ -107,3 +107,7 @@ hackathon/
 - **Python Version**: 3.10+ (FastAPI requires modern Python)
 - **Node Version**: 18+ (for Next.js 14)
 - **Package Manager**: pnpm (frontend), pip (backend)
+
+## Project Constraints
+
+- No need of mobile implementation. Stick to website
