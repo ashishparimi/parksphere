@@ -17,10 +17,10 @@ interface SimpleOrbitControlsProps {
 }
 
 export default function SimpleOrbitControls({
-  minDistance = 3,
-  maxDistance = 20,
-  rotateSpeed = 0.5,
-  zoomSpeed = 0.8,
+  minDistance = 2.5,
+  maxDistance = 8,
+  rotateSpeed = 0.3,
+  zoomSpeed = 0.3,
   enablePan = false,
   enableZoom = true,
   enableRotate = true,
@@ -65,12 +65,16 @@ export default function SimpleOrbitControls({
       
       event.preventDefault();
       
-      // More responsive zoom
-      if (event.deltaY > 0) {
-        scale.current *= 1.05;  // Zoom out
-      } else {
-        scale.current *= 0.95;  // Zoom in
-      }
+      // Much smoother zoom with deltaY normalization
+      const delta = event.deltaY;
+      const normalizedDelta = delta > 0 ? 1 : -1;
+      
+      // Smaller increment for smoother zoom
+      const zoomFactor = 1 + (normalizedDelta * 0.02 * zoomSpeed);
+      scale.current *= zoomFactor;
+      
+      // Clamp scale to reasonable values
+      scale.current = Math.max(0.9, Math.min(1.1, scale.current));
     };
 
     const handleMouseMoveGlobal = (event: MouseEvent) => {
@@ -110,11 +114,20 @@ export default function SimpleOrbitControls({
   useFrame(() => {
     const offset = new THREE.Vector3();
     
-    // Handle reset
+    // Handle reset - properly reset camera to default position
     if (reset) {
-      spherical.current.set(minDistance, Math.PI / 2, 0);
+      // Set camera to default viewing angle
+      spherical.current.radius = 3;
+      spherical.current.theta = 0;
+      spherical.current.phi = Math.PI / 2;
       sphericalDelta.current.set(0, 0, 0);
       scale.current = 1;
+      
+      // Apply immediately
+      const offset = new THREE.Vector3();
+      offset.setFromSpherical(spherical.current);
+      camera.position.copy(offset);
+      camera.lookAt(0, 0, 0);
     }
     
     // Get current position in spherical coordinates
@@ -180,15 +193,15 @@ export default function SimpleOrbitControls({
     camera.position.copy(offset);
     camera.lookAt(0, 0, 0);
     
-    // Apply damping to deltas (progressive slowdown)
-    sphericalDelta.current.theta *= 0.9;  // Stronger damping for less jumpiness
-    sphericalDelta.current.phi *= 0.9;
+    // Apply stronger damping for smoother movement
+    sphericalDelta.current.theta *= 0.85;
+    sphericalDelta.current.phi *= 0.85;
     
     // Stop if velocity is very small
-    if (Math.abs(sphericalDelta.current.theta) < 0.0001) {
+    if (Math.abs(sphericalDelta.current.theta) < 0.00001) {
       sphericalDelta.current.theta = 0;
     }
-    if (Math.abs(sphericalDelta.current.phi) < 0.0001) {
+    if (Math.abs(sphericalDelta.current.phi) < 0.00001) {
       sphericalDelta.current.phi = 0;
     }
     

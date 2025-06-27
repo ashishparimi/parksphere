@@ -539,10 +539,10 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
           enablePan={false}
           enableZoom={!selectedPark}
           enableRotate={!selectedPark}
-          zoomSpeed={0.6}
-          rotateSpeed={0.4}
-          minDistance={1.5}
-          maxDistance={10}
+          zoomSpeed={0.3}
+          rotateSpeed={0.3}
+          minDistance={2.5}
+          maxDistance={8}
           reset={shouldResetCamera || externalShouldReset}
         />
       </Canvas>
@@ -564,7 +564,7 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
         {/* Instructions - bigger and clearer */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
           <div className="bg-white/90 backdrop-blur-sm text-gray-800 px-6 py-3 rounded-full text-base font-medium shadow-lg">
-            🖱️ Drag to spin • 🔍 Scroll to zoom • 👆 Click markers • ⇧ Shift+Scroll for sky
+            🖱️ Drag to spin • 🔍 Scroll to zoom • 👆 Click markers
           </div>
         </div>
       </div>
