@@ -3,8 +3,8 @@ services:
   - type: web
     name: parksphere-api
     runtime: docker
-    rootDir: parksphere/server
-    dockerfilePath: ./Dockerfile
+    rootDir: .
+    dockerfilePath: ./parksphere/server/Dockerfile
     envVars:
       - key: PORT
         value: 8000
@@ -20,8 +20,8 @@ services:
   - type: web
     name: parksphere-frontend
     runtime: docker
-    rootDir: parksphere/client
-    dockerfilePath: ./Dockerfile
+    rootDir: .
+    dockerfilePath: ./parksphere/client/Dockerfile
     envVars:
       - key: NEXT_PUBLIC_API_URL
         value: https://parksphere-api.onrender.com
