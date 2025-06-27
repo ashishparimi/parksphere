@@ -1,0 +1,31 @@
+services:
+  # Backend API Service
+  - type: web
+    name: parksphere-api
+    runtime: docker
+    dockerfilePath: ./server/Dockerfile
+    dockerContext: ./server
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: UNSPLASH_ACCESS_KEY
+        sync: false
+      - key: NASA_API_KEY
+        sync: false
+      - key: NPS_API_KEY
+        sync: false
+    healthCheckPath: /api/health
+    
+  # Frontend Service
+  - type: web
+    name: parksphere-frontend
+    runtime: docker
+    dockerfilePath: ./client/Dockerfile
+    dockerContext: ./client
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://parksphere-api.onrender.com
+      - key: PORT
+        value: 3000
+    buildCommand: echo "Using Docker build"
+    startCommand: echo "Using Docker CMD"

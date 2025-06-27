@@ -8,19 +8,21 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-* {
-  scroll-behavior: smooth;
+/* Prevent scrolling globally for Google Earth experience */
+html, body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#__next {
+  height: 100%;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-  overflow-x: hidden;
+  background: #000000;
 }
 
 @keyframes fadeInUp {
@@ -88,4 +90,22 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Hide default cursor on the globe */
+.globe-container {
+  cursor: none !important;
+}
+
+.globe-container * {
+  cursor: none !important;
+}
+
+/* Glassmorphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }

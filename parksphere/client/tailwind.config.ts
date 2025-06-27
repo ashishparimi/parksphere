@@ -10,11 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         'park-green': '#10b981',
-        'park-blue': '#3b82f6',
-        'park-amber': '#f59e0b',
-      },
-      fontSize: {
-        'kid': '18px',
       },
     },
   },
