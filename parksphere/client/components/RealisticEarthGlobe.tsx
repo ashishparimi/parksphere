@@ -4,7 +4,7 @@ import { useRef, useState, useEffect, Suspense, useMemo } from 'react';
 import { Canvas, useFrame, useThree, useLoader } from '@react-three/fiber';
 import * as THREE from 'three';
 import { Park } from '@/lib/types';
-import SimpleOrbitControls from './SimpleOrbitControls';
+import SmoothOrbitControls from './SmoothOrbitControls';
 import ParkTooltip from './ParkTooltip';
 import CompassCursor from './CompassCursor';
 
@@ -277,14 +277,14 @@ function Earth({ parks, onParkClick, onParkHover, selectedParkId }: {
     <group ref={groupRef}>
       {/* Earth sphere with custom shader */}
       <mesh>
-        <sphereGeometry args={[1, 128, 64]} />
+        <sphereGeometry args={[1, 64, 32]} />
         <primitive object={earthMaterial} attach="material" />
       </mesh>
       
       
       {/* Thin atmosphere rim light only */}
       <mesh scale={[1.02, 1.02, 1.02]}>
-        <sphereGeometry args={[1, 64, 64]} />
+        <sphereGeometry args={[1, 32, 32]} />
         <shaderMaterial
           transparent
           depthWrite={false}
@@ -535,15 +535,16 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
         />
         
         {/* Orbit controls - always enabled but with conditions */}
-        <SimpleOrbitControls
+        <SmoothOrbitControls
           enablePan={false}
           enableZoom={!selectedPark}
           enableRotate={!selectedPark}
-          zoomSpeed={0.3}
-          rotateSpeed={0.3}
+          zoomSpeed={0.8}
+          rotateSpeed={0.6}
           minDistance={2.5}
           maxDistance={8}
-          reset={shouldResetCamera || externalShouldReset}
+          dampingFactor={0.08}
+          autoRotate={false}
         />
       </Canvas>
       
