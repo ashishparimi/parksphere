@@ -11,7 +11,7 @@ RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
 
 # Copy package files
-COPY package.json pnpm-lock.yaml* ./
+COPY parksphere/client/package.json parksphere/client/pnpm-lock.yaml* ./
 
 # Install dependencies
 RUN pnpm install --frozen-lockfile
@@ -25,7 +25,7 @@ RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
 
 COPY --from=deps /app/node_modules ./node_modules
-COPY . .
+COPY parksphere/client/ .
 
 # Set environment variable for production API
 ENV NEXT_PUBLIC_API_URL=https://parksphere-api.onrender.com
