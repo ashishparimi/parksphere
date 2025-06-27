@@ -3,8 +3,8 @@ services:
   - type: web
     name: parksphere-api
     runtime: docker
-    dockerfilePath: ./server/Dockerfile
-    dockerContext: ./server
+    rootDir: parksphere/server
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: PORT
         value: 8000
@@ -20,12 +20,10 @@ services:
   - type: web
     name: parksphere-frontend
     runtime: docker
-    dockerfilePath: ./client/Dockerfile
-    dockerContext: ./client
+    rootDir: parksphere/client
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: NEXT_PUBLIC_API_URL
         value: https://parksphere-api.onrender.com
       - key: PORT
         value: 3000
-    buildCommand: echo "Using Docker build"
-    startCommand: echo "Using Docker CMD"
