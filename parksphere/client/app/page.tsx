@@ -332,59 +332,30 @@ export default function Home() {
   }, []);
 
   const loadMoreParks = () => {
-    console.log('[LOAD MORE] Button clicked', {
-      hasMoreParks,
-      isLoadingMore,
-      currentBatch,
-      parksLength: parks.length,
-      allParksDataLength: allParksData.length
-    });
-    
-    if (!hasMoreParks || isLoadingMore) {
-      console.log('[LOAD MORE] Early return - hasMoreParks:', hasMoreParks, 'isLoadingMore:', isLoadingMore);
-      return;
-    }
+    if (!hasMoreParks || isLoadingMore) return;
     
     setIsLoadingMore(true);
     
     // Simulate network delay for progressive feel
     setTimeout(() => {
-      try {
-        const start = currentBatch * BATCH_SIZE;
-        const end = start + BATCH_SIZE;
-        const nextBatch = allParksData.slice(start, end);
-        
-        console.log('[PROGRESSIVE] Loading batch', currentBatch + 1, '- parks', start, 'to', end, 'nextBatch length:', nextBatch.length);
-        
-        // Add new parks to existing ones
-        setParks(prev => {
-          const newParks = [...prev, ...nextBatch];
-          console.log('[PROGRESSIVE] Updated parks array length:', newParks.length);
-          return newParks;
-        });
-        setFilteredParks(prev => {
-          const newFiltered = [...prev, ...nextBatch];
-          console.log('[PROGRESSIVE] Updated filtered parks array length:', newFiltered.length);
-          return newFiltered;
-        });
-        
-        // Update batch counter
-        setCurrentBatch(prev => {
-          const newBatch = prev + 1;
-          console.log('[PROGRESSIVE] Updated batch counter:', newBatch);
-          return newBatch;
-        });
-        
-        // Check if we have more parks to load
-        const hasMore = end < allParksData.length;
-        setHasMoreParks(hasMore);
-        setIsLoadingMore(false);
-        
-        console.log('[PROGRESSIVE] Load complete - hasMore:', hasMore, 'total parks shown:', parks.length + nextBatch.length);
-      } catch (error) {
-        console.error('[LOAD MORE] Error loading more parks:', error);
-        setIsLoadingMore(false);
-      }
+      const start = currentBatch * BATCH_SIZE;
+      const end = start + BATCH_SIZE;
+      const nextBatch = allParksData.slice(start, end);
+      
+      console.log('[PROGRESSIVE] Loading batch', currentBatch + 1, '- parks', start, 'to', end);
+      
+      // Add new parks to existing ones
+      setParks(prev => [...prev, ...nextBatch]);
+      setFilteredParks(prev => [...prev, ...nextBatch]);
+      
+      // Update batch counter
+      setCurrentBatch(prev => prev + 1);
+      
+      // Check if we have more parks to load
+      setHasMoreParks(end < allParksData.length);
+      setIsLoadingMore(false);
+      
+      console.log('[PROGRESSIVE] Now showing', parks.length + nextBatch.length, 'of', allParksData.length, 'parks');
     }, 500); // 500ms delay for smooth UX
   };
 
@@ -630,27 +601,17 @@ export default function Home() {
         >
           EXPLORE NATIONAL PARKS
         </div>
-        {(() => {
-          const showLoadMore = parks.length < allParksData.length;
-          const showFilter = filteredParks.length < parks.length;
-          console.log('[RENDER] Load More visibility check:', {
-            showLoadMore,
-            showFilter,
-            parksLength: parks.length,
-            allParksDataLength: allParksData.length,
-            filteredParksLength: filteredParks.length
-          });
-          return (showFilter || showLoadMore) && (
-            <div className="mt-4 space-y-2">
-              {showFilter && (
-                <div className="bg-green-500/20 backdrop-blur-md px-3 py-1.5 rounded-full text-green-400 text-sm inline-flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
-                  </svg>
-                  Filtered: {filteredParks.length} of {parks.length} parks
-                </div>
-              )}
-              {showLoadMore && (
+        {(filteredParks.length < parks.length || parks.length < allParksData.length) && (
+          <div className="mt-4 space-y-2">
+            {filteredParks.length < parks.length && (
+              <div className="bg-green-500/20 backdrop-blur-md px-3 py-1.5 rounded-full text-green-400 text-sm inline-flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                </svg>
+                Filtered: {filteredParks.length} of {parks.length} parks
+              </div>
+            )}
+            {parks.length < allParksData.length && (
               <button
                 onClick={loadMoreParks}
                 disabled={isLoadingMore}
@@ -672,8 +633,7 @@ export default function Home() {
               </button>
             )}
           </div>
-          );
-        })()}
+        )}
       </div>
       
       {/* Instruction Bar */}
