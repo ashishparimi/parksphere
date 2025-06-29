@@ -6,10 +6,10 @@
   "framework": "nextjs",
   "regions": ["iad1"],
   "functions": {
-    "parksphere/client/app/api/enrich-park-data/route.ts": {
+    "app/api/enrich-park-data/route.ts": {
       "maxDuration": 30
     },
-    "parksphere/client/app/api/mascot/route.ts": {
+    "app/api/mascot/route.ts": {
       "maxDuration": 30
     }
   }
