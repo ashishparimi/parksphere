@@ -12,7 +12,7 @@ interface MascotService {
     mascotSpecies: string;
     parkName: string;
     parkCode: string;
-    conversationHistory: Array<{ role: string; content: string }>;
+    conversationHistory: Array<{ role: 'user' | 'assistant' | 'system'; content: string }>;
   }): Promise<ReadableStream<Uint8Array>>;
 }
 
@@ -41,7 +41,7 @@ class GroqMascotService implements MascotService {
     mascotSpecies: string;
     parkName: string;
     parkCode: string;
-    conversationHistory: Array<{ role: string; content: string }>;
+    conversationHistory: Array<{ role: 'user' | 'assistant' | 'system'; content: string }>;
   }): Promise<ReadableStream<Uint8Array>> {
     const client = this.getClient();
     
@@ -67,9 +67,9 @@ class GroqMascotService implements MascotService {
     
     const stream = await client.chat.completions.create({
       messages: [
-        { role: 'system', content: systemPrompt },
+        { role: 'system' as const, content: systemPrompt },
         ...params.conversationHistory,
-        { role: 'user', content: params.message }
+        { role: 'user' as const, content: params.message }
       ],
       model: 'llama-3.3-70b-versatile',
       stream: true,

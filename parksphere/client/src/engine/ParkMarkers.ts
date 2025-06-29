@@ -209,7 +209,8 @@ export class ParkMarkers {
     }
     
     // Find park index
-    for (const [index, park] of this.parkMap.entries()) {
+    const entries = Array.from(this.parkMap.entries());
+    for (const [index, park] of entries) {
       if (park.id === parkId) {
         this.selectedIndex = index;
         break;

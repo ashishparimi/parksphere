@@ -507,21 +507,18 @@ export class GlobeEngine {
   
   public getMetrics(): any {
     const optimizerMetrics = this.optimizer.getMetrics();
-    const performanceReport = this.optimizer.getPerformanceReport();
-    const performanceScore = this.optimizer.getPerformanceScore();
-    const suggestions = this.optimizer.getOptimizationSuggestions();
     
     return {
       fps: optimizerMetrics.fps,
       frameTime: optimizerMetrics.frameTime,
-      drawCalls: performanceReport?.drawCalls || 0,
-      triangles: performanceReport?.triangles || 0,
-      geometries: performanceReport?.geometries || 0,
-      textures: performanceReport?.textures || 0,
-      memoryUsage: performanceReport?.memoryUsage || { total: 0, geometries: 0, textures: 0 },
-      score: performanceScore,
-      suggestions: suggestions,
-      quality: this.renderer.getCurrentQuality ? this.renderer.getCurrentQuality() : 'unknown',
+      drawCalls: optimizerMetrics.drawCalls,
+      triangles: optimizerMetrics.triangles,
+      geometries: 0,
+      textures: 0,
+      memoryUsage: { total: optimizerMetrics.memory, geometries: 0, textures: 0 },
+      score: this.optimizer.getQualityLevel() * 100,
+      suggestions: [],
+      quality: 'auto',
       ...optimizerMetrics
     };
   }

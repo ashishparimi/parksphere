@@ -203,10 +203,7 @@ export class TerrainSystem {
       shadowSide: THREE.FrontSide
     });
     
-    if (this.options.enableShadows) {
-      this.terrainMaterial.castShadow = true;
-      this.terrainMaterial.receiveShadow = true;
-    }
+    // Shadow settings will be applied to the mesh instead
   }
   
   private createHeightGradient(): THREE.DataTexture {

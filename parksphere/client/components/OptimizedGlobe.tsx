@@ -6,7 +6,6 @@ import { GlobeEngine } from '@/src/engine/GlobeEngine';
 import { Park } from '@/lib/types';
 import dynamic from 'next/dynamic';
 
-const TerrainStreetView = dynamic(() => import('./TerrainStreetView'), { ssr: false });
 const PerformanceMonitorUI = dynamic(() => import('./PerformanceMonitorUI'), { ssr: false });
 
 interface OptimizedGlobeProps {
@@ -31,7 +30,6 @@ export default function OptimizedGlobe({
   const [parks, setParks] = useState<Park[]>([]);
   const [currentQuality, setCurrentQuality] = useState<string>('');
   const [fps, setFps] = useState<number>(0);
-  const [isTerrainView, setIsTerrainView] = useState(false);
   const [selectedParkForTerrain, setSelectedParkForTerrain] = useState<Park | null>(null);
 
   useEffect(() => {
@@ -88,7 +86,6 @@ export default function OptimizedGlobe({
         engine.on('click', (park: Park) => {
           // Store the park for terrain view
           setSelectedParkForTerrain(park);
-          setIsTerrainView(true);
           
           // Don't notify parent component - we handle it internally
         });
@@ -158,7 +155,6 @@ export default function OptimizedGlobe({
               console.log(`Arrived at ${park.name}`);
               // Auto-trigger street view if park was selected from URL
               setSelectedParkForTerrain(park);
-              setIsTerrainView(true);
             }
           });
           engineRef.current.highlightPark(selectedParkId);
@@ -183,13 +179,6 @@ export default function OptimizedGlobe({
     );
   }
 
-  const handleReturnToGlobe = async () => {
-    if (engineRef.current) {
-      await engineRef.current.exitTerrainView();
-      setIsTerrainView(false);
-      setSelectedParkForTerrain(null);
-    }
-  };
 
   return (
     <>
@@ -199,12 +188,6 @@ export default function OptimizedGlobe({
         style={{ touchAction: 'none' }}
       />
       
-      {/* Terrain Street View UI */}
-      <TerrainStreetView
-        park={selectedParkForTerrain}
-        isActive={isTerrainView}
-        onClose={handleReturnToGlobe}
-      />
       
       {/* Performance Monitor UI */}
       {(showPerformanceStats || process.env.NODE_ENV === 'development') && engineRef.current && (

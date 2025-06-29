@@ -43,8 +43,7 @@ export class GlobeRenderer {
       preserveDrawingBuffer: false
     });
     
-    // Enable WebGL 2.0 features
-    this.renderer.capabilities.isWebGL2 = true;
+    // WebGL 2.0 is automatically detected by Three.js
     this.renderer.outputEncoding = THREE.sRGBEncoding;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.0;
