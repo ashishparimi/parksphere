@@ -170,16 +170,23 @@ function Earth({ parks, onParkClick, onParkHover, selectedParkId }: {
   const [autoRotate, setAutoRotate] = useState(true);
   const lastInteractionTime = useRef(Date.now());
   
-  // Load textures
-  const [dayTexture, nightTexture, specularTexture, normalTexture] = useLoader(
-    THREE.TextureLoader,
-    [
-      '/textures/earth_day.jpg',
-      '/textures/earth_night.jpg',
-      '/textures/earth_specular.jpg',
-      '/textures/earth_normal.jpg'
-    ]
-  );
+  // Load textures with error handling
+  let dayTexture, nightTexture, specularTexture, normalTexture;
+  
+  try {
+    [dayTexture, nightTexture, specularTexture, normalTexture] = useLoader(
+      THREE.TextureLoader,
+      [
+        '/textures/earth_day.jpg',
+        '/textures/earth_night.jpg',
+        '/textures/earth_specular.jpg',
+        '/textures/earth_normal.jpg'
+      ]
+    );
+  } catch (error) {
+    console.error('[TEXTURE ERROR] Failed to load Earth textures:', error);
+    // Fallback to basic material if textures fail
+  }
   
   // Handle user interaction
   useEffect(() => {
