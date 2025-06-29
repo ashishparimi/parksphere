@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: parksphere
+    runtime: node
+    buildCommand: cd parksphere/client && npm install && npm run build
+    startCommand: cd parksphere/client && npm start
+    rootDir: .
+    envVars:
+      - key: NODE_VERSION
+        value: 20.x
+      - key: NEXT_PUBLIC_OPEN_WEATHER_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+        sync: false
