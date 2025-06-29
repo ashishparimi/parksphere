@@ -8,11 +8,17 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20.x
-      - key: NEXT_PUBLIC_OPEN_WEATHER_API_KEY
+      - key: NEXT_PUBLIC_API_URL
+        value: http://localhost:8000
+      - key: UNSPLASH_ACCESS_KEY
         sync: false
-      - key: NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+      - key: UNSPLASH_SECRET_KEY
         sync: false
-      - key: OPENAI_API_KEY
+      - key: UNSPLASH_APPLICATION_ID
         sync: false
-      - key: NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+      - key: NASA_API_KEY
+        sync: false
+      - key: NPS_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
         sync: false
