@@ -250,7 +250,18 @@ export default function Mascot3D({ mascot, parkCode, parkName }: Mascot3DProps) 
         }),
       });
 
-      if (!response.ok) throw new Error('Failed to get response');
+      if (!response.ok) {
+        // Try to parse error message from response
+        let errorMessage = 'Failed to get response';
+        try {
+          const errorData = await response.json();
+          errorMessage = errorData.error || errorMessage;
+        } catch {
+          // If JSON parsing fails, use status text
+          errorMessage = `Error: ${response.status} ${response.statusText}`;
+        }
+        throw new Error(errorMessage);
+      }
 
       const reader = response.body?.getReader();
       const decoder = new TextDecoder();
@@ -262,39 +273,37 @@ export default function Mascot3D({ mascot, parkCode, parkName }: Mascot3DProps) 
           if (done) break;
 
           const chunk = decoder.decode(value);
-          const lines = chunk.split('\n');
-
-          for (const line of lines) {
-            if (line.startsWith('data: ')) {
-              const data = line.slice(6);
-              if (data === '[DONE]') continue;
-
-              try {
-                const parsed = JSON.parse(data);
-                if (parsed.choices?.[0]?.delta?.content) {
-                  assistantMessage += parsed.choices[0].delta.content;
-                  setMessages(prev => {
-                    const newMessages = [...prev];
-                    if (newMessages[newMessages.length - 1]?.role === 'assistant') {
-                      newMessages[newMessages.length - 1].content = assistantMessage;
-                    } else {
-                      newMessages.push({ role: 'assistant', content: assistantMessage });
-                    }
-                    return newMessages;
-                  });
-                }
-              } catch (e) {
-                console.error('Error parsing SSE data:', e);
-              }
+          assistantMessage += chunk;
+          
+          // Update the last message with streaming content
+          setMessages(prev => {
+            const newMessages = [...prev];
+            if (newMessages[newMessages.length - 1]?.role === 'assistant') {
+              newMessages[newMessages.length - 1].content = assistantMessage;
+            } else {
+              newMessages.push({ role: 'assistant', content: assistantMessage });
             }
-          }
+            return newMessages;
+          });
         }
       }
     } catch (error) {
       console.error('Error sending message:', error);
+      let errorMessage = "Oh my! I seem to be having trouble connecting. ";
+      
+      if (error instanceof Error) {
+        if (error.message.includes('AI service is not configured')) {
+          errorMessage += "The AI service is not properly configured on the server. Please contact support.";
+        } else if (error.message.includes('503')) {
+          errorMessage += "The service is temporarily unavailable. Please try again later.";
+        } else {
+          errorMessage += "Please try again in a moment!";
+        }
+      }
+      
       setMessages(prev => [...prev, { 
         role: 'assistant', 
-        content: "Oh my! I seem to be having trouble connecting. Let me try again in a moment!" 
+        content: errorMessage
       }]);
     } finally {
       setIsLoading(false);

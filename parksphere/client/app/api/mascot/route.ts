@@ -14,6 +14,15 @@ const RANGER_BEAR = {
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if GROQ_API_KEY is available
+    if (!process.env.GROQ_API_KEY) {
+      console.error('GROQ_API_KEY is not configured');
+      return Response.json(
+        { error: 'AI service is not configured. Please set GROQ_API_KEY environment variable.' },
+        { status: 503 }
+      );
+    }
+
     const { parkId, message, conversationHistory = [] } = await request.json();
     
     // Use the single Ranger Bear mascot for all parks
@@ -27,7 +36,7 @@ export async function POST(request: NextRequest) {
       message,
       mascotName: mascot.name,
       mascotSpecies: mascot.species,
-      parkName: mascot.name,
+      parkName: parkId, // This should be the park ID/code for now
       parkCode: parkId,
       conversationHistory: conversationHistory.slice(-6) // Last 6 messages for context
     });
@@ -41,8 +50,10 @@ export async function POST(request: NextRequest) {
     
   } catch (error) {
     console.error('Mascot API error:', error);
+    // Provide more specific error message
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
     return Response.json(
-      { error: 'Failed to get response from mascot' },
+      { error: `Failed to get response from mascot: ${errorMessage}` },
       { status: 500 }
     );
   }
