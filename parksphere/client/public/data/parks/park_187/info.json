@@ -1,0 +1,47 @@
+{
+  "id": 186,
+  "code": "park_187",
+  "name": "Russia Park 57",
+  "country": "Russia",
+  "coordinates": {
+    "lat": 68.9677,
+    "lon": 79.3728
+  },
+  "biome": "tundra",
+  "established": 1972,
+  "area_acres": 718464,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Russia Park 57 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_187/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_187/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_187/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_187/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Russia Park 57 Snowy Owl",
+    "species": "Snowy Owl",
+    "avatar": "/mascots/default-snowy-owl.svg",
+    "greeting": "Welcome to Russia Park 57! I'm your friendly Snowy Owl guide. Let me show you the wonders of this amazing park!"
+  }
+}

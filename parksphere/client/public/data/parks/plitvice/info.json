@@ -1,0 +1,40 @@
+{
+  "id": 109,
+  "code": "plitvice",
+  "name": "Plitvice Lakes",
+  "country": "Croatia",
+  "coordinates": {
+    "lat": 44.8654,
+    "lon": 15.582
+  },
+  "biome": "temperate_forest",
+  "established": 1949,
+  "area_acres": 73350,
+  "summary": "Plitvice Lakes is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/plitvice/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/plitvice/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/plitvice/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/plitvice/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Plitvice Lakes Bear",
+    "species": "Bear",
+    "avatar": "/mascots/default-bear.svg",
+    "greeting": "Welcome to Plitvice Lakes! I'm your friendly Bear guide. Let me show you the wonders of this amazing park!"
+  }
+}

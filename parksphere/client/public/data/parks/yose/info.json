@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "code": "yose",
+  "name": "Yosemite",
+  "country": "USA",
+  "nps_code": "yose",
+  "coordinates": {
+    "lat": 37.8651,
+    "lon": -119.5383
+  },
+  "biome": "temperate_forest",
+  "established": 1890,
+  "area_acres": 759620,
+  "activities": [
+    "Hiking",
+    "Rock Climbing",
+    "Photography",
+    "Camping",
+    "Wildlife Viewing"
+  ],
+  "summary": "Yosemite is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/yose/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/yose/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/yose/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/yose/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Ranger Sierra",
+    "species": "Black Bear",
+    "avatar": "/mascots/sierra-bear.svg",
+    "greeting": "Welcome to Yosemite! I'm Ranger Sierra, your friendly black bear guide. Ask me about our giant sequoias, granite cliffs, or the best trails for your skill level!"
+  }
+}

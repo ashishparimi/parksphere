@@ -1,0 +1,48 @@
+{
+  "id": 3,
+  "code": "yell",
+  "name": "Yellowstone",
+  "country": "USA",
+  "nps_code": "yell",
+  "coordinates": {
+    "lat": 44.428,
+    "lon": -110.5885
+  },
+  "biome": "temperate_forest",
+  "established": 1872,
+  "area_acres": 2219791,
+  "activities": [
+    "Wildlife Viewing",
+    "Geothermal Features",
+    "Hiking",
+    "Camping",
+    "Fishing"
+  ],
+  "summary": "Yellowstone is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/yell/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/yell/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/yell/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/yell/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Geyser",
+    "species": "Bison",
+    "avatar": "/mascots/geyser-bison.svg",
+    "greeting": "Welcome to Yellowstone! I'm Geyser the Bison. Let me tell you about our incredible geothermal features and amazing wildlife!"
+  }
+}

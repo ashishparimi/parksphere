@@ -1,0 +1,47 @@
+{
+  "id": 188,
+  "code": "park_189",
+  "name": "Thailand Park 59",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 6.6649,
+    "lon": 99.9114
+  },
+  "biome": "tropical",
+  "established": 1982,
+  "area_acres": 23456,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 59 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_189/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_189/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_189/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_189/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 59 Parrot",
+    "species": "Parrot",
+    "avatar": "/mascots/default-parrot.svg",
+    "greeting": "Welcome to Thailand Park 59! I'm your friendly Parrot guide. Let me show you the wonders of this amazing park!"
+  }
+}

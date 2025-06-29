@@ -1,0 +1,47 @@
+{
+  "id": 149,
+  "code": "park_150",
+  "name": "Thailand Park 20",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 16.6992,
+    "lon": 97.0083
+  },
+  "biome": "tropical",
+  "established": 2007,
+  "area_acres": 606240,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 20 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_150/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_150/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_150/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_150/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 20 Jaguar",
+    "species": "Jaguar",
+    "avatar": "/mascots/default-jaguar.svg",
+    "greeting": "Welcome to Thailand Park 20! I'm your friendly Jaguar guide. Let me show you the wonders of this amazing park!"
+  }
+}

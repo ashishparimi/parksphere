@@ -1,0 +1,47 @@
+{
+  "id": 157,
+  "code": "park_158",
+  "name": "Thailand Park 28",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 12.9339,
+    "lon": 101.7746
+  },
+  "biome": "tropical",
+  "established": 1994,
+  "area_acres": 954195,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 28 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_158/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_158/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_158/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_158/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 28 Monkey",
+    "species": "Monkey",
+    "avatar": "/mascots/default-monkey.svg",
+    "greeting": "Welcome to Thailand Park 28! I'm your friendly Monkey guide. Let me show you the wonders of this amazing park!"
+  }
+}

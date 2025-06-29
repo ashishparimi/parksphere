@@ -1,0 +1,40 @@
+{
+  "id": 122,
+  "code": "galapagos",
+  "name": "Galapagos",
+  "country": "Ecuador",
+  "coordinates": {
+    "lat": -0.1807,
+    "lon": -90.6472
+  },
+  "biome": "coastal",
+  "established": 1959,
+  "area_acres": 1949440,
+  "summary": "Galapagos is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/galapagos/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/galapagos/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/galapagos/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/galapagos/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Galapagos Seal",
+    "species": "Seal",
+    "avatar": "/mascots/default-seal.svg",
+    "greeting": "Welcome to Galapagos! I'm your friendly Seal guide. Let me show you the wonders of this amazing park!"
+  }
+}

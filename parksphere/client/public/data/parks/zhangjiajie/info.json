@@ -1,0 +1,40 @@
+{
+  "id": 108,
+  "code": "zhangjiajie",
+  "name": "Zhangjiajie",
+  "country": "China",
+  "coordinates": {
+    "lat": 29.3152,
+    "lon": 110.4345
+  },
+  "biome": "temperate_forest",
+  "established": 1982,
+  "area_acres": 22400,
+  "summary": "Zhangjiajie is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/zhangjiajie/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/zhangjiajie/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/zhangjiajie/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/zhangjiajie/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Zhangjiajie Deer",
+    "species": "Deer",
+    "avatar": "/mascots/default-deer.svg",
+    "greeting": "Welcome to Zhangjiajie! I'm your friendly Deer guide. Let me show you the wonders of this amazing park!"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 179,
+  "code": "park_180",
+  "name": "Norway Park 50",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 61.5564,
+    "lon": 11.455
+  },
+  "biome": "alpine",
+  "established": 1968,
+  "area_acres": 899130,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park 50 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_180/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_180/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_180/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_180/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park 50 Mountain Goat",
+    "species": "Mountain Goat",
+    "avatar": "/mascots/default-mountain-goat.svg",
+    "greeting": "Welcome to Norway Park 50! I'm your friendly Mountain Goat guide. Let me show you the wonders of this amazing park!"
+  }
+}

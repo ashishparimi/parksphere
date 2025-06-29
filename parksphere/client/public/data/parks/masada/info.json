@@ -1,0 +1,40 @@
+{
+  "id": 130,
+  "code": "masada",
+  "name": "Masada",
+  "country": "Israel",
+  "coordinates": {
+    "lat": 31.3156,
+    "lon": 35.3539
+  },
+  "biome": "desert",
+  "established": 1966,
+  "area_acres": 840,
+  "summary": "Masada is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/masada/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/masada/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/masada/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/masada/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Masada Roadrunner",
+    "species": "Roadrunner",
+    "avatar": "/mascots/default-roadrunner.svg",
+    "greeting": "Welcome to Masada! I'm your friendly Roadrunner guide. Let me show you the wonders of this amazing park!"
+  }
+}

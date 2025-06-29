@@ -1,0 +1,47 @@
+{
+  "id": 102,
+  "code": "park_103",
+  "name": "Peru Park -27",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -6.965,
+    "lon": -69.8022
+  },
+  "biome": "alpine",
+  "established": 1978,
+  "area_acres": 84182,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park -27 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_103/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_103/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_103/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_103/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park -27 Snow Leopard",
+    "species": "Snow Leopard",
+    "avatar": "/mascots/default-snow-leopard.svg",
+    "greeting": "Welcome to Peru Park -27! I'm your friendly Snow Leopard guide. Let me show you the wonders of this amazing park!"
+  }
+}

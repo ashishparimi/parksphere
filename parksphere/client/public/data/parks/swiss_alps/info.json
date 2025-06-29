@@ -1,0 +1,40 @@
+{
+  "id": 110,
+  "code": "swiss_alps",
+  "name": "Swiss National Park",
+  "country": "Switzerland",
+  "coordinates": {
+    "lat": 46.6568,
+    "lon": 10.1736
+  },
+  "biome": "alpine",
+  "established": 1914,
+  "area_acres": 42382,
+  "summary": "Swiss National Park is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/swiss_alps/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/swiss_alps/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/swiss_alps/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/swiss_alps/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Swiss National Park Snow Leopard",
+    "species": "Snow Leopard",
+    "avatar": "/mascots/default-snow-leopard.svg",
+    "greeting": "Welcome to Swiss National Park! I'm your friendly Snow Leopard guide. Let me show you the wonders of this amazing park!"
+  }
+}

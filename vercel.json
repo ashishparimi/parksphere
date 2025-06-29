@@ -1,0 +1,24 @@
+{
+  "buildCommand": "cd parksphere/client && pnpm run build",
+  "outputDirectory": "parksphere/client/.next",
+  "devCommand": "cd parksphere/client && pnpm run dev",
+  "installCommand": "cd parksphere/client && pnpm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "root": "parksphere/client",
+  "functions": {
+    "parksphere/client/app/api/enrich-park-data/route.ts": {
+      "maxDuration": 30
+    },
+    "parksphere/client/app/api/mascot/route.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url",
+    "GROQ_API_KEY": "@groq_api_key",
+    "UNSPLASH_ACCESS_KEY": "@unsplash_access_key",
+    "NASA_API_KEY": "@nasa_api_key",
+    "NPS_API_KEY": "@nps_api_key"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 182,
+  "code": "park_183",
+  "name": "India Park 53",
+  "country": "India",
+  "coordinates": {
+    "lat": 22.4657,
+    "lon": 83.1216
+  },
+  "biome": "tropical",
+  "established": 1985,
+  "area_acres": 175343,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park 53 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_183/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_183/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_183/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_183/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park 53 Monkey",
+    "species": "Monkey",
+    "avatar": "/mascots/default-monkey.svg",
+    "greeting": "Welcome to India Park 53! I'm your friendly Monkey guide. Let me show you the wonders of this amazing park!"
+  }
+}

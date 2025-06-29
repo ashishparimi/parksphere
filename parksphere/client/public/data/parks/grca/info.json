@@ -1,0 +1,48 @@
+{
+  "id": 2,
+  "code": "grca",
+  "name": "Grand Canyon",
+  "country": "USA",
+  "nps_code": "grca",
+  "coordinates": {
+    "lat": 36.1069,
+    "lon": -112.1129
+  },
+  "biome": "desert",
+  "established": 1919,
+  "area_acres": 1217403,
+  "activities": [
+    "Hiking",
+    "Rafting",
+    "Photography",
+    "Camping",
+    "Mule Rides"
+  ],
+  "summary": "Grand Canyon is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/grca/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/grca/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/grca/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/grca/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Canyon",
+    "species": "California Condor",
+    "avatar": "/mascots/canyon-condor.svg",
+    "greeting": "Soar with me above the Grand Canyon! I'm Canyon the Condor, and I love sharing the geological wonders and hidden viewpoints of this magnificent place."
+  }
+}

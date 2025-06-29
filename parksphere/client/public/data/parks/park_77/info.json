@@ -1,0 +1,47 @@
+{
+  "id": 76,
+  "code": "park_77",
+  "name": "Peru Park -53",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -0.793,
+    "lon": -76.2162
+  },
+  "biome": "alpine",
+  "established": 1989,
+  "area_acres": 450142,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park -53 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_77/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_77/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_77/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_77/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park -53 Marmot",
+    "species": "Marmot",
+    "avatar": "/mascots/default-marmot.svg",
+    "greeting": "Welcome to Peru Park -53! I'm your friendly Marmot guide. Let me show you the wonders of this amazing park!"
+  }
+}

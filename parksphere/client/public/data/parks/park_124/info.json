@@ -1,0 +1,47 @@
+{
+  "id": 123,
+  "code": "park_124",
+  "name": "India Park -6",
+  "country": "India",
+  "coordinates": {
+    "lat": 10.461,
+    "lon": 86.3413
+  },
+  "biome": "tropical",
+  "established": 1968,
+  "area_acres": 227552,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park -6 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_124/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_124/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_124/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_124/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park -6 Jaguar",
+    "species": "Jaguar",
+    "avatar": "/mascots/default-jaguar.svg",
+    "greeting": "Welcome to India Park -6! I'm your friendly Jaguar guide. Let me show you the wonders of this amazing park!"
+  }
+}

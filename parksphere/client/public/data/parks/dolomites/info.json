@@ -1,0 +1,40 @@
+{
+  "id": 116,
+  "code": "dolomites",
+  "name": "Dolomites",
+  "country": "Italy",
+  "coordinates": {
+    "lat": 46.4102,
+    "lon": 11.844
+  },
+  "biome": "alpine",
+  "established": 2009,
+  "area_acres": 231653,
+  "summary": "Dolomites is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/dolomites/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/dolomites/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/dolomites/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/dolomites/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Dolomites Marmot",
+    "species": "Marmot",
+    "avatar": "/mascots/default-marmot.svg",
+    "greeting": "Welcome to Dolomites! I'm your friendly Marmot guide. Let me show you the wonders of this amazing park!"
+  }
+}

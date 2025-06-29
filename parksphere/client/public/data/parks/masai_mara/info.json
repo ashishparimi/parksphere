@@ -1,0 +1,40 @@
+{
+  "id": 114,
+  "code": "masai_mara",
+  "name": "Masai Mara",
+  "country": "Kenya",
+  "coordinates": {
+    "lat": -1.4061,
+    "lon": 35.1437
+  },
+  "biome": "savanna",
+  "established": 1961,
+  "area_acres": 370247,
+  "summary": "Masai Mara is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/masai_mara/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/masai_mara/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/masai_mara/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/masai_mara/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Masai Mara Zebra",
+    "species": "Zebra",
+    "avatar": "/mascots/default-zebra.svg",
+    "greeting": "Welcome to Masai Mara! I'm your friendly Zebra guide. Let me show you the wonders of this amazing park!"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 115,
+  "code": "victoria_falls",
+  "name": "Victoria Falls",
+  "country": "Zimbabwe/Zambia",
+  "coordinates": {
+    "lat": -17.9244,
+    "lon": 25.8572
+  },
+  "biome": "tropical",
+  "established": 1989,
+  "area_acres": 16404,
+  "summary": "Victoria Falls is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/victoria_falls/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/victoria_falls/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/victoria_falls/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/victoria_falls/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Victoria Falls Jaguar",
+    "species": "Jaguar",
+    "avatar": "/mascots/default-jaguar.svg",
+    "greeting": "Welcome to Victoria Falls! I'm your friendly Jaguar guide. Let me show you the wonders of this amazing park!"
+  }
+}

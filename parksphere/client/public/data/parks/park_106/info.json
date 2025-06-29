@@ -1,0 +1,47 @@
+{
+  "id": 105,
+  "code": "park_106",
+  "name": "Norway Park -24",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 58.9806,
+    "lon": 24.751
+  },
+  "biome": "alpine",
+  "established": 1964,
+  "area_acres": 247270,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park -24 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_106/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_106/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_106/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_106/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park -24 Mountain Goat",
+    "species": "Mountain Goat",
+    "avatar": "/mascots/default-mountain-goat.svg",
+    "greeting": "Welcome to Norway Park -24! I'm your friendly Mountain Goat guide. Let me show you the wonders of this amazing park!"
+  }
+}

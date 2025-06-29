@@ -1,0 +1,47 @@
+{
+  "id": 72,
+  "code": "park_73",
+  "name": "Peru Park -57",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -10.9212,
+    "lon": -80.4047
+  },
+  "biome": "alpine",
+  "established": 1971,
+  "area_acres": 671345,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park -57 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_73/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_73/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_73/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_73/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park -57 Eagle",
+    "species": "Eagle",
+    "avatar": "/mascots/default-eagle.svg",
+    "greeting": "Welcome to Peru Park -57! I'm your friendly Eagle guide. Let me show you the wonders of this amazing park!"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 127,
+  "code": "uluru",
+  "name": "Uluru-Kata Tjuta",
+  "country": "Australia",
+  "coordinates": {
+    "lat": -25.3444,
+    "lon": 131.0369
+  },
+  "biome": "desert",
+  "established": 1950,
+  "area_acres": 327647,
+  "summary": "Uluru-Kata Tjuta is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/uluru/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/uluru/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/uluru/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/uluru/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Uluru-Kata Tjuta Lizard",
+    "species": "Lizard",
+    "avatar": "/mascots/default-lizard.svg",
+    "greeting": "Welcome to Uluru-Kata Tjuta! I'm your friendly Lizard guide. Let me show you the wonders of this amazing park!"
+  }
+}

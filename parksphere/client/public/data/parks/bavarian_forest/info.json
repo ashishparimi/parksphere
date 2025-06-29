@@ -1,0 +1,40 @@
+{
+  "id": 118,
+  "code": "bavarian_forest",
+  "name": "Bavarian Forest",
+  "country": "Germany",
+  "coordinates": {
+    "lat": 48.9747,
+    "lon": 13.3958
+  },
+  "biome": "temperate_forest",
+  "established": 1970,
+  "area_acres": 60693,
+  "summary": "Bavarian Forest is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/bavarian_forest/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/bavarian_forest/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/bavarian_forest/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/bavarian_forest/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Bavarian Forest Wolf",
+    "species": "Wolf",
+    "avatar": "/mascots/default-wolf.svg",
+    "greeting": "Welcome to Bavarian Forest! I'm your friendly Wolf guide. Let me show you the wonders of this amazing park!"
+  }
+}

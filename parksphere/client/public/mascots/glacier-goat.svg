@@ -1,0 +1,43 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mountain Goat for Glacier -->
+  <circle cx="50" cy="50" r="45" fill="#E0E7FF"/>
+  
+  <!-- Glacier/ice elements -->
+  <path d="M15 65 L25 55 L35 65" fill="#C7D2FE" opacity="0.7"/>
+  <path d="M65 65 L75 55 L85 65" fill="#A5B4FC" opacity="0.6"/>
+  
+  <!-- Body -->
+  <ellipse cx="50" cy="58" rx="26" ry="22" fill="#FFFFFF"/>
+  
+  <!-- Fluffy winter coat -->
+  <ellipse cx="35" cy="58" rx="8" ry="6" fill="#F3F4F6"/>
+  <ellipse cx="65" cy="58" rx="8" ry="6" fill="#F3F4F6"/>
+  
+  <!-- Head -->
+  <ellipse cx="50" cy="40" rx="18" ry="16" fill="#FFFFFF"/>
+  
+  <!-- Beard -->
+  <path d="M50 48 Q50 56 44 52 Q50 56 56 52" fill="#E5E7EB"/>
+  
+  <!-- Horns (curved back) -->
+  <path d="M40 30 Q38 25 42 28" stroke="#6B7280" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M60 30 Q62 25 58 28" stroke="#6B7280" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Snout -->
+  <ellipse cx="50" cy="43" rx="8" ry="6" fill="#F3F4F6"/>
+  
+  <!-- Nose -->
+  <ellipse cx="50" cy="42" rx="2" ry="1.5" fill="#374151"/>
+  
+  <!-- Eyes -->
+  <circle cx="42" cy="38" r="2" fill="#000000"/>
+  <circle cx="58" cy="38" r="2" fill="#000000"/>
+  
+  <!-- Ice crystals -->
+  <path d="M20 45 L22 45 M21 44 L21 46" stroke="#60A5FA" stroke-width="1"/>
+  <path d="M80 40 L82 40 M81 39 L81 41" stroke="#60A5FA" stroke-width="1"/>
+  
+  <!-- Hooves -->
+  <ellipse cx="40" cy="70" rx="4" ry="2" fill="#374151"/>
+  <ellipse cx="60" cy="70" rx="4" ry="2" fill="#374151"/>
+</svg>

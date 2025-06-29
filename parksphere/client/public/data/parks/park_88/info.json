@@ -1,0 +1,47 @@
+{
+  "id": 87,
+  "code": "park_88",
+  "name": "Peru Park -42",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -9.6108,
+    "lon": -79.2777
+  },
+  "biome": "alpine",
+  "established": 1971,
+  "area_acres": 882367,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park -42 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_88/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_88/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_88/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_88/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park -42 Eagle",
+    "species": "Eagle",
+    "avatar": "/mascots/default-eagle.svg",
+    "greeting": "Welcome to Peru Park -42! I'm your friendly Eagle guide. Let me show you the wonders of this amazing park!"
+  }
+}

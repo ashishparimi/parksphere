@@ -1,0 +1,47 @@
+{
+  "id": 181,
+  "code": "park_182",
+  "name": "Morocco Park 52",
+  "country": "Morocco",
+  "coordinates": {
+    "lat": 30.6233,
+    "lon": -7.9733
+  },
+  "biome": "desert",
+  "established": 1965,
+  "area_acres": 488241,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Morocco Park 52 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_182/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_182/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_182/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_182/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Morocco Park 52 Lizard",
+    "species": "Lizard",
+    "avatar": "/mascots/default-lizard.svg",
+    "greeting": "Welcome to Morocco Park 52! I'm your friendly Lizard guide. Let me show you the wonders of this amazing park!"
+  }
+}

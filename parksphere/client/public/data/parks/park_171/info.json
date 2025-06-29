@@ -1,0 +1,47 @@
+{
+  "id": 170,
+  "code": "park_171",
+  "name": "Norway Park 41",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 65.8549,
+    "lon": 11.7016
+  },
+  "biome": "alpine",
+  "established": 2018,
+  "area_acres": 698446,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park 41 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_171/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_171/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_171/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_171/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park 41 Marmot",
+    "species": "Marmot",
+    "avatar": "/mascots/default-marmot.svg",
+    "greeting": "Welcome to Norway Park 41! I'm your friendly Marmot guide. Let me show you the wonders of this amazing park!"
+  }
+}

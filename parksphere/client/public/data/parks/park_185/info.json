@@ -1,0 +1,47 @@
+{
+  "id": 184,
+  "code": "park_185",
+  "name": "Peru Park 55",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -4.3759,
+    "lon": -70.9847
+  },
+  "biome": "alpine",
+  "established": 1972,
+  "area_acres": 651640,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park 55 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_185/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_185/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_185/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_185/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park 55 Snow Leopard",
+    "species": "Snow Leopard",
+    "avatar": "/mascots/default-snow-leopard.svg",
+    "greeting": "Welcome to Peru Park 55! I'm your friendly Snow Leopard guide. Let me show you the wonders of this amazing park!"
+  }
+}

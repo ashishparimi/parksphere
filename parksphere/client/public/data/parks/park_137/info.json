@@ -1,0 +1,47 @@
+{
+  "id": 136,
+  "code": "park_137",
+  "name": "Norway Park 7",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 65.1996,
+    "lon": 28.9292
+  },
+  "biome": "alpine",
+  "established": 1984,
+  "area_acres": 877458,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park 7 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_137/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_137/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_137/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_137/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park 7 Snow Leopard",
+    "species": "Snow Leopard",
+    "avatar": "/mascots/default-snow-leopard.svg",
+    "greeting": "Welcome to Norway Park 7! I'm your friendly Snow Leopard guide. Let me show you the wonders of this amazing park!"
+  }
+}

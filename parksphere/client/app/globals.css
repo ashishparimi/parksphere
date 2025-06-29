@@ -92,13 +92,44 @@ body {
   background-clip: text;
 }
 
-/* Hide default cursor on the globe */
-.globe-container {
+/* Hide default cursor only on main page */
+body:not(.normal-cursor) *,
+body:not(.normal-cursor) *::before,
+body:not(.normal-cursor) *::after {
   cursor: none !important;
 }
 
-.globe-container * {
+body:not(.normal-cursor) {
   cursor: none !important;
+}
+
+body:not(.normal-cursor) canvas {
+  cursor: none !important;
+}
+
+body:not(.normal-cursor) div,
+body:not(.normal-cursor) span,
+body:not(.normal-cursor) p,
+body:not(.normal-cursor) h1,
+body:not(.normal-cursor) h2,
+body:not(.normal-cursor) h3,
+body:not(.normal-cursor) h4,
+body:not(.normal-cursor) h5,
+body:not(.normal-cursor) h6,
+body:not(.normal-cursor) button,
+body:not(.normal-cursor) a {
+  cursor: none !important;
+}
+
+/* Allow cursor for specific inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+.allow-cursor,
+.allow-cursor * {
+  cursor: auto !important;
 }
 
 /* Glassmorphism effects */
@@ -108,4 +139,159 @@ body {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* Cloud transition animations */
+@keyframes cloud-fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes cloud-fade-in-delayed {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cloud-drift {
+  0% {
+    transform: translateX(-50px) translateY(0);
+  }
+  50% {
+    transform: translateX(50px) translateY(-30px);
+  }
+  100% {
+    transform: translateX(-50px) translateY(0);
+  }
+}
+
+.animate-cloud-fade-in {
+  animation: cloud-fade-in 2s ease-in-out forwards;
+}
+
+.animate-cloud-fade-in-delayed {
+  animation: cloud-fade-in-delayed 2s ease-in-out forwards;
+}
+
+.animate-cloud-drift {
+  animation: cloud-drift 4s ease-in-out infinite;
+}
+
+/* Watermark animations */
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Watermark glow effect */
+.watermark-glow {
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
+  transition: all 0.3s ease;
+}
+
+.watermark-glow:hover {
+  filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.6));
+}
+
+/* Mascot animations */
+@keyframes mascot-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes mascot-wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes mascot-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(34, 197, 94, 0.8);
+  }
+}
+
+.mascot-container {
+  animation: mascot-bounce 3s ease-in-out infinite;
+}
+
+.mascot-icon {
+  transition: transform 0.3s ease;
+}
+
+.mascot-icon:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Chat interface styles */
+.mascot-chat {
+  max-height: 500px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.mascot-chat::-webkit-scrollbar {
+  width: 6px;
+}
+
+.mascot-chat::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mascot-chat::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.mascot-chat::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }

@@ -1,0 +1,36 @@
+{
+  "name": "parksphere-data-pipeline",
+  "version": "1.0.0",
+  "description": "Data ingestion and processing pipeline for National Parks Earth",
+  "type": "module",
+  "scripts": {
+    "ingest": "node data-pipeline/index.js",
+    "ingest:park": "node data-pipeline/ingest-single.js",
+    "generate:static": "node data-pipeline/generate-static-data.js",
+    "generate:terrain": "node data-pipeline/generate-terrain-data.js",
+    "process:terrain": "node data-pipeline/terrain-processor.js",
+    "optimize:assets": "node data-pipeline/asset-optimizer.js",
+    "build:search": "node data-pipeline/search-builder.js",
+    "build:all": "node data-pipeline/build-all-data.js",
+    "enrich": "node enrich-park-data.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "axios": "^1.6.0",
+    "sharp": "^0.33.0",
+    "three": "^0.160.0",
+    "draco3d": "^1.5.6",
+    "gltf-pipeline": "^4.1.0",
+    "fuse.js": "^7.0.0",
+    "dotenv": "^16.3.1",
+    "jsdom": "^23.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/three": "^0.160.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

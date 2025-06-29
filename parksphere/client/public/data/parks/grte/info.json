@@ -1,0 +1,48 @@
+{
+  "id": 8,
+  "code": "grte",
+  "name": "Grand Teton",
+  "country": "USA",
+  "nps_code": "grte",
+  "coordinates": {
+    "lat": 43.7904,
+    "lon": -110.6818
+  },
+  "biome": "alpine",
+  "established": 1929,
+  "area_acres": 310044,
+  "activities": [
+    "Mountaineering",
+    "Hiking",
+    "Wildlife Viewing",
+    "Boating",
+    "Photography"
+  ],
+  "summary": "Grand Teton is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/grte/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/grte/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/grte/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/grte/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Peak",
+    "species": "Grizzly Bear",
+    "avatar": "/mascots/peak-grizzly.svg",
+    "greeting": "Welcome to Grand Teton! I'm Peak, and I'll share the best spots for wildlife viewing, mountaineering, and photography in these majestic mountains."
+  }
+}

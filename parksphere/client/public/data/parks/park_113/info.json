@@ -1,0 +1,47 @@
+{
+  "id": 112,
+  "code": "park_113",
+  "name": "India Park -17",
+  "country": "India",
+  "coordinates": {
+    "lat": 29.4709,
+    "lon": 86.5047
+  },
+  "biome": "tropical",
+  "established": 1988,
+  "area_acres": 575334,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park -17 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_113/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_113/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_113/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_113/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park -17 Parrot",
+    "species": "Parrot",
+    "avatar": "/mascots/default-parrot.svg",
+    "greeting": "Welcome to India Park -17! I'm your friendly Parrot guide. Let me show you the wonders of this amazing park!"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 67,
+  "code": "park_68",
+  "name": "India Park -62",
+  "country": "India",
+  "coordinates": {
+    "lat": 29.9066,
+    "lon": 87.7439
+  },
+  "biome": "tropical",
+  "established": 1970,
+  "area_acres": 760373,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park -62 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_68/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_68/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_68/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_68/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park -62 Monkey",
+    "species": "Monkey",
+    "avatar": "/mascots/default-monkey.svg",
+    "greeting": "Welcome to India Park -62! I'm your friendly Monkey guide. Let me show you the wonders of this amazing park!"
+  }
+}

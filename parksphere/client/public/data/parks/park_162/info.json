@@ -1,0 +1,47 @@
+{
+  "id": 161,
+  "code": "park_162",
+  "name": "Iceland Park 32",
+  "country": "Iceland",
+  "coordinates": {
+    "lat": 66.3195,
+    "lon": -16.6722
+  },
+  "biome": "tundra",
+  "established": 1983,
+  "area_acres": 868562,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Iceland Park 32 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_162/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_162/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_162/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_162/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iceland Park 32 Arctic Fox",
+    "species": "Arctic Fox",
+    "avatar": "/mascots/default-arctic-fox.svg",
+    "greeting": "Welcome to Iceland Park 32! I'm your friendly Arctic Fox guide. Let me show you the wonders of this amazing park!"
+  }
+}

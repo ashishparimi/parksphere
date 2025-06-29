@@ -1,0 +1,48 @@
+{
+  "id": 5,
+  "code": "zion",
+  "name": "Zion",
+  "country": "USA",
+  "nps_code": "zion",
+  "coordinates": {
+    "lat": 37.2982,
+    "lon": -113.0263
+  },
+  "biome": "desert",
+  "established": 1919,
+  "area_acres": 146597,
+  "activities": [
+    "Hiking",
+    "Canyoneering",
+    "Rock Climbing",
+    "Photography",
+    "Camping"
+  ],
+  "summary": "Zion is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/zion/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/zion/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/zion/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/zion/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Cliff",
+    "species": "Desert Bighorn Sheep",
+    "avatar": "/mascots/cliff-sheep.svg",
+    "greeting": "Welcome to Zion! I'm Cliff, your sure-footed guide to these amazing red rocks. Ask me about canyoneering, the Narrows, or Angels Landing!"
+  }
+}

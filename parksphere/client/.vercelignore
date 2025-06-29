@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Testing
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Development
+.env.local
+dev.log
+*.log
+
+# Scripts (build data separately)
+scripts/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Documentation
+README.md
+DEVELOPER.md

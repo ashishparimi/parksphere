@@ -1,0 +1,47 @@
+{
+  "id": 50,
+  "code": "park_51",
+  "name": "Mongolia Park -79",
+  "country": "Mongolia",
+  "coordinates": {
+    "lat": 50.2621,
+    "lon": 88.4809
+  },
+  "biome": "grassland",
+  "established": 2002,
+  "area_acres": 948299,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Mongolia Park -79 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_51/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_51/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_51/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_51/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Mongolia Park -79 Prairie Dog",
+    "species": "Prairie Dog",
+    "avatar": "/mascots/default-prairie-dog.svg",
+    "greeting": "Welcome to Mongolia Park -79! I'm your friendly Prairie Dog guide. Let me show you the wonders of this amazing park!"
+  }
+}

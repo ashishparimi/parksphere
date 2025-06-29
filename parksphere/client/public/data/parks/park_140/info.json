@@ -1,0 +1,47 @@
+{
+  "id": 139,
+  "code": "park_140",
+  "name": "Morocco Park 10",
+  "country": "Morocco",
+  "coordinates": {
+    "lat": 28.4302,
+    "lon": -11.9668
+  },
+  "biome": "desert",
+  "established": 1997,
+  "area_acres": 565811,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Morocco Park 10 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_140/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_140/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_140/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_140/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Morocco Park 10 Roadrunner",
+    "species": "Roadrunner",
+    "avatar": "/mascots/default-roadrunner.svg",
+    "greeting": "Welcome to Morocco Park 10! I'm your friendly Roadrunner guide. Let me show you the wonders of this amazing park!"
+  }
+}

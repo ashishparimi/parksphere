@@ -1,0 +1,47 @@
+{
+  "id": 163,
+  "code": "park_164",
+  "name": "Russia Park 34",
+  "country": "Russia",
+  "coordinates": {
+    "lat": 54.4007,
+    "lon": 45.7889
+  },
+  "biome": "tundra",
+  "established": 1986,
+  "area_acres": 144871,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Russia Park 34 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_164/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_164/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_164/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_164/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Russia Park 34 Caribou",
+    "species": "Caribou",
+    "avatar": "/mascots/default-caribou.svg",
+    "greeting": "Welcome to Russia Park 34! I'm your friendly Caribou guide. Let me show you the wonders of this amazing park!"
+  }
+}

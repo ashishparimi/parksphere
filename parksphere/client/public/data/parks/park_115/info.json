@@ -1,0 +1,47 @@
+{
+  "id": 114,
+  "code": "park_115",
+  "name": "India Park -15",
+  "country": "India",
+  "coordinates": {
+    "lat": 11.7704,
+    "lon": 83.8773
+  },
+  "biome": "tropical",
+  "established": 2019,
+  "area_acres": 823789,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park -15 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_115/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_115/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_115/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_115/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park -15 Toucan",
+    "species": "Toucan",
+    "avatar": "/mascots/default-toucan.svg",
+    "greeting": "Welcome to India Park -15! I'm your friendly Toucan guide. Let me show you the wonders of this amazing park!"
+  }
+}

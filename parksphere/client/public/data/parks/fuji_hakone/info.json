@@ -1,0 +1,40 @@
+{
+  "id": 107,
+  "code": "fuji_hakone",
+  "name": "Fuji-Hakone-Izu",
+  "country": "Japan",
+  "coordinates": {
+    "lat": 35.3606,
+    "lon": 138.7274
+  },
+  "biome": "temperate_forest",
+  "established": 1936,
+  "area_acres": 309688,
+  "summary": "Fuji-Hakone-Izu is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/fuji_hakone/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/fuji_hakone/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/fuji_hakone/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/fuji_hakone/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Fuji-Hakone-Izu Deer",
+    "species": "Deer",
+    "avatar": "/mascots/default-deer.svg",
+    "greeting": "Welcome to Fuji-Hakone-Izu! I'm your friendly Deer guide. Let me show you the wonders of this amazing park!"
+  }
+}

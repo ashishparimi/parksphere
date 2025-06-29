@@ -1,0 +1,47 @@
+{
+  "id": 96,
+  "code": "park_97",
+  "name": "Morocco Park -33",
+  "country": "Morocco",
+  "coordinates": {
+    "lat": 35.8114,
+    "lon": -3.372
+  },
+  "biome": "desert",
+  "established": 2004,
+  "area_acres": 136630,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Morocco Park -33 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_97/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_97/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_97/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_97/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Morocco Park -33 Lizard",
+    "species": "Lizard",
+    "avatar": "/mascots/default-lizard.svg",
+    "greeting": "Welcome to Morocco Park -33! I'm your friendly Lizard guide. Let me show you the wonders of this amazing park!"
+  }
+}

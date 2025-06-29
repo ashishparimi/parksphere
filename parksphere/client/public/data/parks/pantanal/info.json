@@ -1,0 +1,40 @@
+{
+  "id": 123,
+  "code": "pantanal",
+  "name": "Pantanal",
+  "country": "Brazil",
+  "coordinates": {
+    "lat": -17.7098,
+    "lon": -57.4029
+  },
+  "biome": "wetland",
+  "established": 1981,
+  "area_acres": 3716670,
+  "summary": "Pantanal is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/pantanal/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/pantanal/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/pantanal/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/pantanal/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Pantanal Bear",
+    "species": "Bear",
+    "avatar": "/mascots/default-bear.svg",
+    "greeting": "Welcome to Pantanal! I'm your friendly Bear guide. Let me show you the wonders of this amazing park!"
+  }
+}

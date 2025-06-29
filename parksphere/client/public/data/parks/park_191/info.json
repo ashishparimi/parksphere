@@ -1,0 +1,47 @@
+{
+  "id": 190,
+  "code": "park_191",
+  "name": "Russia Park 61",
+  "country": "Russia",
+  "coordinates": {
+    "lat": 72.8452,
+    "lon": 131.0126
+  },
+  "biome": "tundra",
+  "established": 2017,
+  "area_acres": 447906,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Russia Park 61 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_191/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_191/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_191/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_191/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Russia Park 61 Caribou",
+    "species": "Caribou",
+    "avatar": "/mascots/default-caribou.svg",
+    "greeting": "Welcome to Russia Park 61! I'm your friendly Caribou guide. Let me show you the wonders of this amazing park!"
+  }
+}

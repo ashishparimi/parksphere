@@ -1,0 +1,30 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desert Bighorn Sheep for Zion -->
+  <circle cx="50" cy="50" r="45" fill="#FED7D7"/>
+  
+  <!-- Body -->
+  <ellipse cx="50" cy="60" rx="28" ry="25" fill="#D2B48C"/>
+  
+  <!-- Head -->
+  <ellipse cx="50" cy="40" rx="20" ry="18" fill="#DEB887"/>
+  
+  <!-- Curved horns -->
+  <path d="M30 35 Q20 30 25 40 Q30 45 35 40" stroke="#8B7355" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M70 35 Q80 30 75 40 Q70 45 65 40" stroke="#8B7355" stroke-width="5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Snout -->
+  <ellipse cx="50" cy="45" rx="10" ry="8" fill="#FAEBD7"/>
+  
+  <!-- Nose -->
+  <ellipse cx="50" cy="44" rx="3" ry="2" fill="#8B7355"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="40" cy="37" rx="3" ry="4" fill="#000000"/>
+  <ellipse cx="60" cy="37" rx="3" ry="4" fill="#000000"/>
+  <circle cx="41" cy="36" r="1" fill="#FFFFFF"/>
+  <circle cx="61" cy="36" r="1" fill="#FFFFFF"/>
+  
+  <!-- Rock/cliff element -->
+  <path d="M20 75 L30 70 L35 75 L25 80 Z" fill="#E53E3E"/>
+  <path d="M70 75 L80 70 L75 80 Z" fill="#E53E3E"/>
+</svg>

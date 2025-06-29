@@ -1,0 +1,28 @@
+{
+  "generated": "2025-06-29T04:04:53.466Z",
+  "dataSize": {
+    "totalMB": "0.68",
+    "byPark": {
+      "acad": "64.8 KB",
+      "glac": "64.8 KB",
+      "grca": "64.8 KB",
+      "grsm": "64.9 KB",
+      "grte": "64.8 KB",
+      "olym": "64.9 KB",
+      "romo": "64.9 KB",
+      "yell": "64.9 KB",
+      "yose": "64.9 KB",
+      "zion": "64.8 KB"
+    },
+    "byCategory": {
+      "terrainMB": "0.62",
+      "texturesMB": "0.00",
+      "metadataKB": "60.8"
+    }
+  },
+  "files": {
+    "terrainMeshes": 40,
+    "textures": 30,
+    "galleryImages": 50
+  }
+}

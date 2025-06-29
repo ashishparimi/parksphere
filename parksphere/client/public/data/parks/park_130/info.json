@@ -1,0 +1,47 @@
+{
+  "id": 129,
+  "code": "park_130",
+  "name": "Mongolia Park 0",
+  "country": "Mongolia",
+  "coordinates": {
+    "lat": 41.3449,
+    "lon": 118.7407
+  },
+  "biome": "grassland",
+  "established": 1982,
+  "area_acres": 527897,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Mongolia Park 0 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_130/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_130/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_130/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_130/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Mongolia Park 0 Antelope",
+    "species": "Antelope",
+    "avatar": "/mascots/default-antelope.svg",
+    "greeting": "Welcome to Mongolia Park 0! I'm your friendly Antelope guide. Let me show you the wonders of this amazing park!"
+  }
+}

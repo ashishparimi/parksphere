@@ -1,0 +1,48 @@
+{
+  "id": 9,
+  "code": "olym",
+  "name": "Olympic",
+  "country": "USA",
+  "nps_code": "olym",
+  "coordinates": {
+    "lat": 47.8021,
+    "lon": -123.6044
+  },
+  "biome": "temperate_rainforest",
+  "established": 1938,
+  "area_acres": 922651,
+  "activities": [
+    "Hiking",
+    "Beach Combing",
+    "Rainforest Exploration",
+    "Camping",
+    "Tide Pooling"
+  ],
+  "summary": "Olympic is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/olym/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/olym/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/olym/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/olym/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Moss",
+    "species": "Roosevelt Elk",
+    "avatar": "/mascots/moss-elk.svg",
+    "greeting": "Hello! I'm Moss, your guide to Olympic's incredible diversity. From rainforests to glaciers to tide pools, I know all the hidden treasures!"
+  }
+}

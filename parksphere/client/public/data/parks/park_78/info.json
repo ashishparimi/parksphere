@@ -1,0 +1,47 @@
+{
+  "id": 77,
+  "code": "park_78",
+  "name": "Thailand Park -52",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 15.4748,
+    "lon": 102.7544
+  },
+  "biome": "tropical",
+  "established": 1971,
+  "area_acres": 360236,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park -52 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_78/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_78/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_78/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_78/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park -52 Toucan",
+    "species": "Toucan",
+    "avatar": "/mascots/default-toucan.svg",
+    "greeting": "Welcome to Thailand Park -52! I'm your friendly Toucan guide. Let me show you the wonders of this amazing park!"
+  }
+}

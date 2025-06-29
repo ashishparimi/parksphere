@@ -7,14 +7,20 @@ import { Park } from '@/lib/types';
 import SmoothOrbitControls from './SmoothOrbitControls';
 import ParkTooltip from './ParkTooltip';
 import CompassCursor from './CompassCursor';
+import dynamic from 'next/dynamic';
+
+// const TerrainStreetView = dynamic(() => import('./TerrainStreetView'), { ssr: false });
 
 // Distinct biome color mapping for clear differentiation
 const biomeColors = {
   'Tropical Rainforest': { primary: '#00b300', secondary: '#009900' },     // Deep green
   'Temperate Forest': { primary: '#228b22', secondary: '#006400' },        // Forest green
+  'temperate_forest': { primary: '#228b22', secondary: '#006400' },        // Forest green
   'Boreal Forest': { primary: '#0f4d0f', secondary: '#003300' },           // Dark green
   'Desert': { primary: '#ff8c00', secondary: '#ff6600' },                  // Orange
+  'desert': { primary: '#ff8c00', secondary: '#ff6600' },                  // Orange
   'Alpine': { primary: '#6495ed', secondary: '#4169e1' },                  // Cornflower blue
+  'alpine': { primary: '#6495ed', secondary: '#4169e1' },                  // Cornflower blue
   'Grassland': { primary: '#9acd32', secondary: '#7cfc00' },               // Yellow-green
   'Mediterranean': { primary: '#daa520', secondary: '#b8860b' },           // Goldenrod
   'Tundra': { primary: '#b0c4de', secondary: '#778899' },                  // Light steel blue
@@ -25,7 +31,8 @@ const biomeColors = {
   'Ice Sheet': { primary: '#add8e6', secondary: '#87ceeb' },               // Light blue
   'Mountain': { primary: '#8b4513', secondary: '#654321' },                // Saddle brown
   'Volcanic': { primary: '#dc143c', secondary: '#8b0000' },                // Crimson
-  'Coastal': { primary: '#20b2aa', secondary: '#008b8b' }                  // Light sea green
+  'Coastal': { primary: '#20b2aa', secondary: '#008b8b' },                 // Light sea green
+  'temperate_rainforest': { primary: '#00b300', secondary: '#009900' }      // Deep green
 };
 
 // Park type icons (using Unicode symbols)
@@ -98,11 +105,13 @@ function ParkMarker({ park, onClick, onHover, isSelected }: ParkMarkerProps) {
         e.stopPropagation();
         setHovered(true);
         onHover(park);
+        document.body.classList.add('park-hover');
       }}
       onPointerOut={(e) => {
         e.stopPropagation();
         setHovered(false);
         onHover(null);
+        document.body.classList.remove('park-hover');
       }}
     >
       {/* Glow base */}
@@ -407,12 +416,10 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
     onParkClick(park);
   };
 
+
   return (
     <div 
-      className="fixed inset-0 bg-black"
-      style={{ 
-        cursor: 'none'
-      }}>
+      className="fixed inset-0 bg-black">
       <Canvas
         camera={{ 
           position: [0, 0, 3], 
@@ -510,33 +517,13 @@ export default function RealisticEarthGlobe({ parks, onParkClick, selectedParkId
         />
       </Canvas>
       
-      {/* UI Overlay */}
-      <div className="absolute inset-0 pointer-events-none">
-        {/* Title - moved below search bar */}
-        <div className="absolute top-24 left-8">
-          <h1 className="text-5xl font-bold">
-            <span className="text-yellow-300">PARK</span>
-            <span className="text-green-400">SPHERE</span>
-            <span className="text-4xl ml-2">🌍</span>
-          </h1>
-          <p className="text-white text-lg mt-1 font-medium">
-            Explore Amazing National Parks Around the World! 🎒
-          </p>
-        </div>
-        
-        {/* Instructions - bigger and clearer */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <div className="bg-white/90 backdrop-blur-sm text-gray-800 px-6 py-3 rounded-full text-base font-medium shadow-lg">
-            🖱️ Drag to spin • 🔍 Scroll to zoom • 👆 Click markers
-          </div>
-        </div>
-      </div>
       
       {/* Park tooltip on hover */}
       <ParkTooltip park={hoveredPark} position={mousePosition} />
       
       {/* Compass cursor */}
       <CompassCursor />
+      
       
     </div>
   );

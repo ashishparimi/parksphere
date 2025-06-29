@@ -1,0 +1,47 @@
+{
+  "id": 85,
+  "code": "park_86",
+  "name": "Mongolia Park -44",
+  "country": "Mongolia",
+  "coordinates": {
+    "lat": 51.5343,
+    "lon": 98.0599
+  },
+  "biome": "grassland",
+  "established": 2008,
+  "area_acres": 437010,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Mongolia Park -44 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_86/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_86/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_86/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_86/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Mongolia Park -44 Bison",
+    "species": "Bison",
+    "avatar": "/mascots/default-bison.svg",
+    "greeting": "Welcome to Mongolia Park -44! I'm your friendly Bison guide. Let me show you the wonders of this amazing park!"
+  }
+}

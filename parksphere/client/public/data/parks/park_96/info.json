@@ -1,0 +1,47 @@
+{
+  "id": 95,
+  "code": "park_96",
+  "name": "India Park -34",
+  "country": "India",
+  "coordinates": {
+    "lat": 13.3743,
+    "lon": 88.7097
+  },
+  "biome": "tropical",
+  "established": 2017,
+  "area_acres": 393188,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park -34 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_96/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_96/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_96/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_96/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park -34 Jaguar",
+    "species": "Jaguar",
+    "avatar": "/mascots/default-jaguar.svg",
+    "greeting": "Welcome to India Park -34! I'm your friendly Jaguar guide. Let me show you the wonders of this amazing park!"
+  }
+}

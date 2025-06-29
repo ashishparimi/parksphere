@@ -1,0 +1,40 @@
+{
+  "id": 124,
+  "code": "tayrona",
+  "name": "Tayrona",
+  "country": "Colombia",
+  "coordinates": {
+    "lat": 11.3072,
+    "lon": -74.0265
+  },
+  "biome": "tropical",
+  "established": 1969,
+  "area_acres": 37507,
+  "summary": "Tayrona is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/tayrona/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/tayrona/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/tayrona/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/tayrona/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Tayrona Monkey",
+    "species": "Monkey",
+    "avatar": "/mascots/default-monkey.svg",
+    "greeting": "Welcome to Tayrona! I'm your friendly Monkey guide. Let me show you the wonders of this amazing park!"
+  }
+}

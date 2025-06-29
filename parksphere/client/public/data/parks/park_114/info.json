@@ -1,0 +1,47 @@
+{
+  "id": 113,
+  "code": "park_114",
+  "name": "Peru Park -16",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -5.8557,
+    "lon": -77.3969
+  },
+  "biome": "alpine",
+  "established": 1964,
+  "area_acres": 21939,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park -16 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_114/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_114/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_114/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_114/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park -16 Mountain Goat",
+    "species": "Mountain Goat",
+    "avatar": "/mascots/default-mountain-goat.svg",
+    "greeting": "Welcome to Peru Park -16! I'm your friendly Mountain Goat guide. Let me show you the wonders of this amazing park!"
+  }
+}

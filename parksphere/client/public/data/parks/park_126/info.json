@@ -1,0 +1,47 @@
+{
+  "id": 125,
+  "code": "park_126",
+  "name": "Norway Park -4",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 70.6285,
+    "lon": 25.398
+  },
+  "biome": "alpine",
+  "established": 1960,
+  "area_acres": 609923,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park -4 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_126/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_126/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_126/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_126/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park -4 Marmot",
+    "species": "Marmot",
+    "avatar": "/mascots/default-marmot.svg",
+    "greeting": "Welcome to Norway Park -4! I'm your friendly Marmot guide. Let me show you the wonders of this amazing park!"
+  }
+}

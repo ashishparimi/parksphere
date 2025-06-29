@@ -1,0 +1,47 @@
+{
+  "id": 154,
+  "code": "park_155",
+  "name": "Iceland Park 25",
+  "country": "Iceland",
+  "coordinates": {
+    "lat": 65.6894,
+    "lon": -15.0344
+  },
+  "biome": "tundra",
+  "established": 1989,
+  "area_acres": 70718,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Iceland Park 25 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_155/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_155/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_155/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_155/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iceland Park 25 Polar Bear",
+    "species": "Polar Bear",
+    "avatar": "/mascots/default-polar-bear.svg",
+    "greeting": "Welcome to Iceland Park 25! I'm your friendly Polar Bear guide. Let me show you the wonders of this amazing park!"
+  }
+}

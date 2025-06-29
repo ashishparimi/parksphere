@@ -1,0 +1,40 @@
+{
+  "id": 128,
+  "code": "great_barrier",
+  "name": "Great Barrier Reef",
+  "country": "Australia",
+  "coordinates": {
+    "lat": -18.2871,
+    "lon": 147.6992
+  },
+  "biome": "marine",
+  "established": 1975,
+  "area_acres": 87015744,
+  "summary": "Great Barrier Reef is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/great_barrier/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/great_barrier/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/great_barrier/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/great_barrier/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Great Barrier Reef Wolf",
+    "species": "Wolf",
+    "avatar": "/mascots/default-wolf.svg",
+    "greeting": "Welcome to Great Barrier Reef! I'm your friendly Wolf guide. Let me show you the wonders of this amazing park!"
+  }
+}

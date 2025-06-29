@@ -1,0 +1,47 @@
+{
+  "id": 142,
+  "code": "park_143",
+  "name": "India Park 13",
+  "country": "India",
+  "coordinates": {
+    "lat": 8.6183,
+    "lon": 68.3659
+  },
+  "biome": "tropical",
+  "established": 2004,
+  "area_acres": 166725,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park 13 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_143/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_143/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_143/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_143/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park 13 Toucan",
+    "species": "Toucan",
+    "avatar": "/mascots/default-toucan.svg",
+    "greeting": "Welcome to India Park 13! I'm your friendly Toucan guide. Let me show you the wonders of this amazing park!"
+  }
+}

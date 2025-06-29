@@ -1,0 +1,40 @@
+{
+  "id": 111,
+  "code": "fiordland",
+  "name": "Fiordland",
+  "country": "New Zealand",
+  "coordinates": {
+    "lat": -45.3765,
+    "lon": 167.541
+  },
+  "biome": "temperate_rainforest",
+  "established": 1952,
+  "area_acres": 3062170,
+  "summary": "Fiordland is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/fiordland/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/fiordland/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/fiordland/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/fiordland/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Fiordland Salmon",
+    "species": "Salmon",
+    "avatar": "/mascots/default-salmon.svg",
+    "greeting": "Welcome to Fiordland! I'm your friendly Salmon guide. Let me show you the wonders of this amazing park!"
+  }
+}

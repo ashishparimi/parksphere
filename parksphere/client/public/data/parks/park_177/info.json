@@ -1,0 +1,47 @@
+{
+  "id": 176,
+  "code": "park_177",
+  "name": "Thailand Park 47",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 10.4098,
+    "lon": 105.4989
+  },
+  "biome": "tropical",
+  "established": 2013,
+  "area_acres": 843854,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 47 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_177/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_177/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_177/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_177/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 47 Toucan",
+    "species": "Toucan",
+    "avatar": "/mascots/default-toucan.svg",
+    "greeting": "Welcome to Thailand Park 47! I'm your friendly Toucan guide. Let me show you the wonders of this amazing park!"
+  }
+}

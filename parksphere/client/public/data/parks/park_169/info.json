@@ -1,0 +1,47 @@
+{
+  "id": 168,
+  "code": "park_169",
+  "name": "Thailand Park 39",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 14.705,
+    "lon": 100.9218
+  },
+  "biome": "tropical",
+  "established": 1996,
+  "area_acres": 909234,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 39 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_169/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_169/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_169/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_169/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 39 Jaguar",
+    "species": "Jaguar",
+    "avatar": "/mascots/default-jaguar.svg",
+    "greeting": "Welcome to Thailand Park 39! I'm your friendly Jaguar guide. Let me show you the wonders of this amazing park!"
+  }
+}

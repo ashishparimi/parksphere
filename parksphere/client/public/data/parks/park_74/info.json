@@ -1,0 +1,47 @@
+{
+  "id": 73,
+  "code": "park_74",
+  "name": "Norway Park -56",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 58.2809,
+    "lon": 20.6912
+  },
+  "biome": "alpine",
+  "established": 1976,
+  "area_acres": 899848,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park -56 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_74/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_74/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_74/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_74/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park -56 Eagle",
+    "species": "Eagle",
+    "avatar": "/mascots/default-eagle.svg",
+    "greeting": "Welcome to Norway Park -56! I'm your friendly Eagle guide. Let me show you the wonders of this amazing park!"
+  }
+}

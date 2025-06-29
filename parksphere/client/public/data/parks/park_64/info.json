@@ -1,0 +1,47 @@
+{
+  "id": 63,
+  "code": "park_64",
+  "name": "Morocco Park -66",
+  "country": "Morocco",
+  "coordinates": {
+    "lat": 29.9718,
+    "lon": -10.3672
+  },
+  "biome": "desert",
+  "established": 1962,
+  "area_acres": 826928,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Morocco Park -66 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_64/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_64/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_64/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_64/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Morocco Park -66 Roadrunner",
+    "species": "Roadrunner",
+    "avatar": "/mascots/default-roadrunner.svg",
+    "greeting": "Welcome to Morocco Park -66! I'm your friendly Roadrunner guide. Let me show you the wonders of this amazing park!"
+  }
+}

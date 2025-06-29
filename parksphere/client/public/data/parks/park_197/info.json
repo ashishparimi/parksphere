@@ -1,0 +1,47 @@
+{
+  "id": 196,
+  "code": "park_197",
+  "name": "Mongolia Park 67",
+  "country": "Mongolia",
+  "coordinates": {
+    "lat": 41.4716,
+    "lon": 116.6777
+  },
+  "biome": "grassland",
+  "established": 1983,
+  "area_acres": 460827,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Mongolia Park 67 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_197/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_197/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_197/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_197/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Mongolia Park 67 Hawk",
+    "species": "Hawk",
+    "avatar": "/mascots/default-hawk.svg",
+    "greeting": "Welcome to Mongolia Park 67! I'm your friendly Hawk guide. Let me show you the wonders of this amazing park!"
+  }
+}

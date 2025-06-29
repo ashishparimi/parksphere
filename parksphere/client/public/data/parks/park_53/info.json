@@ -1,0 +1,47 @@
+{
+  "id": 52,
+  "code": "park_53",
+  "name": "Iceland Park -77",
+  "country": "Iceland",
+  "coordinates": {
+    "lat": 63.4195,
+    "lon": -14.9526
+  },
+  "biome": "tundra",
+  "established": 1977,
+  "area_acres": 116408,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Iceland Park -77 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_53/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_53/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_53/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_53/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iceland Park -77 Caribou",
+    "species": "Caribou",
+    "avatar": "/mascots/default-caribou.svg",
+    "greeting": "Welcome to Iceland Park -77! I'm your friendly Caribou guide. Let me show you the wonders of this amazing park!"
+  }
+}

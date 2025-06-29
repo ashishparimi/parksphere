@@ -1,0 +1,47 @@
+{
+  "id": 199,
+  "code": "park_200",
+  "name": "Russia Park 70",
+  "country": "Russia",
+  "coordinates": {
+    "lat": 71.0318,
+    "lon": 170.6008
+  },
+  "biome": "tundra",
+  "established": 1964,
+  "area_acres": 514193,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Russia Park 70 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_200/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_200/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_200/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_200/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Russia Park 70 Polar Bear",
+    "species": "Polar Bear",
+    "avatar": "/mascots/default-polar-bear.svg",
+    "greeting": "Welcome to Russia Park 70! I'm your friendly Polar Bear guide. Let me show you the wonders of this amazing park!"
+  }
+}

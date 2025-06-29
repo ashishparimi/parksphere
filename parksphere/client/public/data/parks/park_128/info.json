@@ -1,0 +1,47 @@
+{
+  "id": 127,
+  "code": "park_128",
+  "name": "Iceland Park -2",
+  "country": "Iceland",
+  "coordinates": {
+    "lat": 63.5036,
+    "lon": -16.5393
+  },
+  "biome": "tundra",
+  "established": 1977,
+  "area_acres": 165269,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Iceland Park -2 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_128/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_128/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_128/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_128/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iceland Park -2 Snowy Owl",
+    "species": "Snowy Owl",
+    "avatar": "/mascots/default-snowy-owl.svg",
+    "greeting": "Welcome to Iceland Park -2! I'm your friendly Snowy Owl guide. Let me show you the wonders of this amazing park!"
+  }
+}

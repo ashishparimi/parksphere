@@ -1,0 +1,47 @@
+{
+  "id": 62,
+  "code": "park_63",
+  "name": "Russia Park -67",
+  "country": "Russia",
+  "coordinates": {
+    "lat": 53.0353,
+    "lon": 82.3491
+  },
+  "biome": "tundra",
+  "established": 1995,
+  "area_acres": 183321,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Russia Park -67 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_63/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_63/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_63/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_63/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Russia Park -67 Snowy Owl",
+    "species": "Snowy Owl",
+    "avatar": "/mascots/default-snowy-owl.svg",
+    "greeting": "Welcome to Russia Park -67! I'm your friendly Snowy Owl guide. Let me show you the wonders of this amazing park!"
+  }
+}

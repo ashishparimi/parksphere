@@ -1,0 +1,47 @@
+{
+  "id": 135,
+  "code": "park_136",
+  "name": "Mongolia Park 6",
+  "country": "Mongolia",
+  "coordinates": {
+    "lat": 46.232,
+    "lon": 92.3687
+  },
+  "biome": "grassland",
+  "established": 1974,
+  "area_acres": 796933,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Mongolia Park 6 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_136/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_136/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_136/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_136/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Mongolia Park 6 Hawk",
+    "species": "Hawk",
+    "avatar": "/mascots/default-hawk.svg",
+    "greeting": "Welcome to Mongolia Park 6! I'm your friendly Hawk guide. Let me show you the wonders of this amazing park!"
+  }
+}

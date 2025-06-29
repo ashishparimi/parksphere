@@ -1,0 +1,40 @@
+{
+  "id": 120,
+  "code": "sagarmatha",
+  "name": "Sagarmatha (Everest)",
+  "country": "Nepal",
+  "coordinates": {
+    "lat": 27.9881,
+    "lon": 86.925
+  },
+  "biome": "alpine",
+  "established": 1976,
+  "area_acres": 292394,
+  "summary": "Sagarmatha (Everest) is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/sagarmatha/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/sagarmatha/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/sagarmatha/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/sagarmatha/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Sagarmatha (Everest) Mountain Goat",
+    "species": "Mountain Goat",
+    "avatar": "/mascots/default-mountain-goat.svg",
+    "greeting": "Welcome to Sagarmatha (Everest)! I'm your friendly Mountain Goat guide. Let me show you the wonders of this amazing park!"
+  }
+}

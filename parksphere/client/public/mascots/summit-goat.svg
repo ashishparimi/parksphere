@@ -1,0 +1,35 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mountain Goat for Rocky Mountain -->
+  <circle cx="50" cy="50" r="45" fill="#BEE3F8"/>
+  
+  <!-- Snow peaks in background -->
+  <path d="M10 60 L25 35 L40 60" fill="#E2E8F0"/>
+  <path d="M60 60 L75 35 L90 60" fill="#E2E8F0"/>
+  
+  <!-- Body -->
+  <ellipse cx="50" cy="58" rx="26" ry="22" fill="#F7FAFC"/>
+  
+  <!-- Head -->
+  <ellipse cx="50" cy="40" rx="18" ry="16" fill="#FFFFFF"/>
+  
+  <!-- Beard -->
+  <path d="M50 48 Q50 55 45 52 Q50 55 55 52" fill="#E2E8F0"/>
+  
+  <!-- Horns (short and straight) -->
+  <rect x="42" y="25" width="3" height="10" rx="1" fill="#4A5568"/>
+  <rect x="55" y="25" width="3" height="10" rx="1" fill="#4A5568"/>
+  
+  <!-- Snout -->
+  <ellipse cx="50" cy="43" rx="8" ry="6" fill="#E2E8F0"/>
+  
+  <!-- Nose -->
+  <ellipse cx="50" cy="42" rx="2" ry="1.5" fill="#000000"/>
+  
+  <!-- Eyes -->
+  <circle cx="42" cy="38" r="2" fill="#000000"/>
+  <circle cx="58" cy="38" r="2" fill="#000000"/>
+  
+  <!-- Hooves -->
+  <ellipse cx="40" cy="70" rx="4" ry="2" fill="#2D3748"/>
+  <ellipse cx="60" cy="70" rx="4" ry="2" fill="#2D3748"/>
+</svg>

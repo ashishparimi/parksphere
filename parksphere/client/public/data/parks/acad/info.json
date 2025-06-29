@@ -1,0 +1,48 @@
+{
+  "id": 7,
+  "code": "acad",
+  "name": "Acadia",
+  "country": "USA",
+  "nps_code": "acad",
+  "coordinates": {
+    "lat": 44.3386,
+    "lon": -68.2733
+  },
+  "biome": "temperate_forest",
+  "established": 1919,
+  "area_acres": 49075,
+  "activities": [
+    "Hiking",
+    "Tide Pooling",
+    "Photography",
+    "Biking",
+    "Scenic Drives"
+  ],
+  "summary": "Acadia is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/acad/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/acad/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/acad/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/acad/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Tidal",
+    "species": "Harbor Seal",
+    "avatar": "/mascots/tidal-seal.svg",
+    "greeting": "Splash! I'm Tidal the Harbor Seal. Let me show you the best tide pools, sunrise spots, and coastal trails in Acadia!"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 173,
+  "code": "park_174",
+  "name": "Thailand Park 44",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 18.9765,
+    "lon": 105.5771
+  },
+  "biome": "tropical",
+  "established": 1987,
+  "area_acres": 54509,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 44 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_174/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_174/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_174/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_174/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 44 Toucan",
+    "species": "Toucan",
+    "avatar": "/mascots/default-toucan.svg",
+    "greeting": "Welcome to Thailand Park 44! I'm your friendly Toucan guide. Let me show you the wonders of this amazing park!"
+  }
+}

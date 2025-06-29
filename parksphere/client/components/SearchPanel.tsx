@@ -15,6 +15,7 @@ export default function SearchPanel({ onParkSelect, isOpen, onClose }: SearchPan
   const [results, setResults] = useState<Park[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [allParks, setAllParks] = useState<Park[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
   const searchTimeout = useRef<NodeJS.Timeout | null>(null);
 
@@ -23,6 +24,20 @@ export default function SearchPanel({ onParkSelect, isOpen, onClose }: SearchPan
       inputRef.current.focus();
     }
   }, [isOpen]);
+
+  // Load all parks data once
+  useEffect(() => {
+    const loadParks = async () => {
+      try {
+        const response = await fetch('/data/parks.json');
+        const data = await response.json();
+        setAllParks(data.parks || data);
+      } catch (err) {
+        console.error('Failed to load parks data:', err);
+      }
+    };
+    loadParks();
+  }, []);
 
   useEffect(() => {
     if (query.length < 2) {
@@ -44,18 +59,25 @@ export default function SearchPanel({ onParkSelect, isOpen, onClose }: SearchPan
         clearTimeout(searchTimeout.current);
       }
     };
-  }, [query]);
+  }, [query, allParks]);
 
   const performSearch = async () => {
     setLoading(true);
     setError(null);
 
     try {
-      const response = await fetch(`http://localhost:8000/api/search?q=${encodeURIComponent(query)}`);
-      if (!response.ok) throw new Error('Search failed');
+      // Client-side search
+      const searchQuery = query.toLowerCase();
+      const filtered = allParks.filter(park => 
+        park.name.toLowerCase().includes(searchQuery) ||
+        park.country.toLowerCase().includes(searchQuery) ||
+        park.biome.toLowerCase().includes(searchQuery) ||
+        (park.activities && park.activities.some(activity => 
+          activity.toLowerCase().includes(searchQuery)
+        ))
+      );
       
-      const data = await response.json();
-      setResults(data.results);
+      setResults(filtered);
     } catch (err) {
       setError('Failed to search parks');
       console.error('Search error:', err);

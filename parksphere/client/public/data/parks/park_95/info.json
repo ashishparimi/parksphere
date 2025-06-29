@@ -1,0 +1,47 @@
+{
+  "id": 94,
+  "code": "park_95",
+  "name": "Norway Park -35",
+  "country": "Norway",
+  "coordinates": {
+    "lat": 60.3141,
+    "lon": 8.529
+  },
+  "biome": "alpine",
+  "established": 1991,
+  "area_acres": 137046,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Norway Park -35 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_95/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_95/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_95/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_95/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Norway Park -35 Marmot",
+    "species": "Marmot",
+    "avatar": "/mascots/default-marmot.svg",
+    "greeting": "Welcome to Norway Park -35! I'm your friendly Marmot guide. Let me show you the wonders of this amazing park!"
+  }
+}

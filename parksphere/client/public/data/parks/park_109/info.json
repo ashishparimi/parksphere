@@ -1,0 +1,47 @@
+{
+  "id": 108,
+  "code": "park_109",
+  "name": "Russia Park -21",
+  "country": "Russia",
+  "coordinates": {
+    "lat": 59.8125,
+    "lon": 100.2865
+  },
+  "biome": "tundra",
+  "established": 1986,
+  "area_acres": 936077,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Russia Park -21 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_109/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_109/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_109/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_109/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Russia Park -21 Snowy Owl",
+    "species": "Snowy Owl",
+    "avatar": "/mascots/default-snowy-owl.svg",
+    "greeting": "Welcome to Russia Park -21! I'm your friendly Snowy Owl guide. Let me show you the wonders of this amazing park!"
+  }
+}

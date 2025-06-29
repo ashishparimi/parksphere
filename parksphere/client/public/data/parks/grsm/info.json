@@ -1,0 +1,48 @@
+{
+  "id": 4,
+  "code": "grsm",
+  "name": "Great Smoky Mountains",
+  "country": "USA",
+  "nps_code": "grsm",
+  "coordinates": {
+    "lat": 35.6131,
+    "lon": -83.5532
+  },
+  "biome": "temperate_forest",
+  "established": 1934,
+  "area_acres": 522419,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Waterfalls",
+    "Camping",
+    "Scenic Drives"
+  ],
+  "summary": "Great Smoky Mountains is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/grsm/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/grsm/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/grsm/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/grsm/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Misty",
+    "species": "Black Bear Cub",
+    "avatar": "/mascots/misty-bear.svg",
+    "greeting": "Hi there! I'm Misty, and I know all the best spots in the Smoky Mountains. Want to learn about our salamanders, wildflowers, or historic cabins?"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 112,
+  "code": "kakadu",
+  "name": "Kakadu",
+  "country": "Australia",
+  "coordinates": {
+    "lat": -12.8375,
+    "lon": 132.9011
+  },
+  "biome": "tropical",
+  "established": 1979,
+  "area_acres": 4894370,
+  "summary": "Kakadu is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/kakadu/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/kakadu/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/kakadu/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/kakadu/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Kakadu Monkey",
+    "species": "Monkey",
+    "avatar": "/mascots/default-monkey.svg",
+    "greeting": "Welcome to Kakadu! I'm your friendly Monkey guide. Let me show you the wonders of this amazing park!"
+  }
+}

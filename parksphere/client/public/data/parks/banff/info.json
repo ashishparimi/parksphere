@@ -1,0 +1,40 @@
+{
+  "id": 101,
+  "code": "banff",
+  "name": "Banff",
+  "country": "Canada",
+  "coordinates": {
+    "lat": 51.4968,
+    "lon": -115.9281
+  },
+  "biome": "alpine",
+  "established": 1885,
+  "area_acres": 1641027,
+  "summary": "Banff is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/banff/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/banff/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/banff/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/banff/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Banff Snow Leopard",
+    "species": "Snow Leopard",
+    "avatar": "/mascots/default-snow-leopard.svg",
+    "greeting": "Welcome to Banff! I'm your friendly Snow Leopard guide. Let me show you the wonders of this amazing park!"
+  }
+}

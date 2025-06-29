@@ -1,0 +1,47 @@
+{
+  "id": 45,
+  "code": "park_46",
+  "name": "Morocco Park -84",
+  "country": "Morocco",
+  "coordinates": {
+    "lat": 31.6234,
+    "lon": -2.9413
+  },
+  "biome": "desert",
+  "established": 2009,
+  "area_acres": 731740,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Morocco Park -84 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_46/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_46/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_46/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_46/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Morocco Park -84 Camel",
+    "species": "Camel",
+    "avatar": "/mascots/default-camel.svg",
+    "greeting": "Welcome to Morocco Park -84! I'm your friendly Camel guide. Let me show you the wonders of this amazing park!"
+  }
+}

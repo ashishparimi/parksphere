@@ -1,0 +1,47 @@
+{
+  "id": 110,
+  "code": "park_111",
+  "name": "Thailand Park -19",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 12.2303,
+    "lon": 102.6037
+  },
+  "biome": "tropical",
+  "established": 2004,
+  "area_acres": 899652,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park -19 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_111/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_111/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_111/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_111/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park -19 Parrot",
+    "species": "Parrot",
+    "avatar": "/mascots/default-parrot.svg",
+    "greeting": "Welcome to Thailand Park -19! I'm your friendly Parrot guide. Let me show you the wonders of this amazing park!"
+  }
+}

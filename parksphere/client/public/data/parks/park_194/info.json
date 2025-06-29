@@ -1,0 +1,47 @@
+{
+  "id": 193,
+  "code": "park_194",
+  "name": "Peru Park 64",
+  "country": "Peru",
+  "coordinates": {
+    "lat": -11.1026,
+    "lon": -72.3082
+  },
+  "biome": "alpine",
+  "established": 2005,
+  "area_acres": 657086,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Peru Park 64 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_194/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_194/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_194/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_194/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Peru Park 64 Eagle",
+    "species": "Eagle",
+    "avatar": "/mascots/default-eagle.svg",
+    "greeting": "Welcome to Peru Park 64! I'm your friendly Eagle guide. Let me show you the wonders of this amazing park!"
+  }
+}

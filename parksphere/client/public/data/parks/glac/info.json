@@ -1,0 +1,48 @@
+{
+  "id": 10,
+  "code": "glac",
+  "name": "Glacier",
+  "country": "USA",
+  "nps_code": "glac",
+  "coordinates": {
+    "lat": 48.6961,
+    "lon": -113.7185
+  },
+  "biome": "alpine",
+  "established": 1910,
+  "area_acres": 1013126,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Glacier Tours",
+    "Camping",
+    "Scenic Drives"
+  ],
+  "summary": "Glacier is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/glac/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/glac/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    },
+    {
+      "url": "/images/parks/glac/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "National Park Service"
+    }
+  ],
+  "satellite": "/images/parks/glac/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": true,
+  "mascot": {
+    "name": "Glacier",
+    "species": "Mountain Goat",
+    "avatar": "/mascots/glacier-goat.svg",
+    "greeting": "Welcome to Glacier National Park! I'm Glacier, and I'll help you discover our pristine wilderness, stunning glacial valleys, and abundant wildlife."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "generated": "2025-06-29T06:25:43.293Z",
+  "parksCount": 200,
+  "dataFiles": {
+    "parks": "/data/parks.json",
+    "search": "/data/search-index.json",
+    "globe": "/data/globe/world-mesh.draco"
+  }
+}

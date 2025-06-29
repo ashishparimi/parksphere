@@ -1,0 +1,47 @@
+{
+  "id": 134,
+  "code": "park_135",
+  "name": "Morocco Park 5",
+  "country": "Morocco",
+  "coordinates": {
+    "lat": 30.1833,
+    "lon": -12.4819
+  },
+  "biome": "desert",
+  "established": 1979,
+  "area_acres": 341372,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Morocco Park 5 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_135/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_135/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_135/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_135/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Morocco Park 5 Desert Fox",
+    "species": "Desert Fox",
+    "avatar": "/mascots/default-desert-fox.svg",
+    "greeting": "Welcome to Morocco Park 5! I'm your friendly Desert Fox guide. Let me show you the wonders of this amazing park!"
+  }
+}

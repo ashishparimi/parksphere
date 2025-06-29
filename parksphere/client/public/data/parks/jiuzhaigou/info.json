@@ -1,0 +1,40 @@
+{
+  "id": 121,
+  "code": "jiuzhaigou",
+  "name": "Jiuzhaigou",
+  "country": "China",
+  "coordinates": {
+    "lat": 33.26,
+    "lon": 103.918
+  },
+  "biome": "alpine",
+  "established": 1978,
+  "area_acres": 181839,
+  "summary": "Jiuzhaigou is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/jiuzhaigou/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/jiuzhaigou/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/jiuzhaigou/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/jiuzhaigou/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Jiuzhaigou Mountain Goat",
+    "species": "Mountain Goat",
+    "avatar": "/mascots/default-mountain-goat.svg",
+    "greeting": "Welcome to Jiuzhaigou! I'm your friendly Mountain Goat guide. Let me show you the wonders of this amazing park!"
+  }
+}

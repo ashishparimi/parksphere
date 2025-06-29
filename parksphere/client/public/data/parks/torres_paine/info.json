@@ -1,0 +1,40 @@
+{
+  "id": 105,
+  "code": "torres_paine",
+  "name": "Torres del Paine",
+  "country": "Chile",
+  "coordinates": {
+    "lat": -50.9423,
+    "lon": -73.4068
+  },
+  "biome": "alpine",
+  "established": 1959,
+  "area_acres": 448280,
+  "summary": "Torres del Paine is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/torres_paine/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/torres_paine/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/torres_paine/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/torres_paine/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Torres del Paine Marmot",
+    "species": "Marmot",
+    "avatar": "/mascots/default-marmot.svg",
+    "greeting": "Welcome to Torres del Paine! I'm your friendly Marmot guide. Let me show you the wonders of this amazing park!"
+  }
+}

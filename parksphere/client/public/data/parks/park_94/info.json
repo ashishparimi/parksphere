@@ -1,0 +1,47 @@
+{
+  "id": 93,
+  "code": "park_94",
+  "name": "India Park -36",
+  "country": "India",
+  "coordinates": {
+    "lat": 12.3274,
+    "lon": 84.5555
+  },
+  "biome": "tropical",
+  "established": 1972,
+  "area_acres": 613793,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "India Park -36 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_94/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_94/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_94/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_94/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "India Park -36 Parrot",
+    "species": "Parrot",
+    "avatar": "/mascots/default-parrot.svg",
+    "greeting": "Welcome to India Park -36! I'm your friendly Parrot guide. Let me show you the wonders of this amazing park!"
+  }
+}

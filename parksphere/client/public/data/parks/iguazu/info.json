@@ -1,0 +1,40 @@
+{
+  "id": 106,
+  "code": "iguazu",
+  "name": "Iguazu",
+  "country": "Argentina/Brazil",
+  "coordinates": {
+    "lat": -25.6953,
+    "lon": -54.4367
+  },
+  "biome": "tropical",
+  "established": 1934,
+  "area_acres": 169695,
+  "summary": "Iguazu is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/iguazu/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/iguazu/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/iguazu/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/iguazu/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iguazu Toucan",
+    "species": "Toucan",
+    "avatar": "/mascots/default-toucan.svg",
+    "greeting": "Welcome to Iguazu! I'm your friendly Toucan guide. Let me show you the wonders of this amazing park!"
+  }
+}

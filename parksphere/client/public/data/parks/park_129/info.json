@@ -1,0 +1,47 @@
+{
+  "id": 128,
+  "code": "park_129",
+  "name": "Iceland Park -1",
+  "country": "Iceland",
+  "coordinates": {
+    "lat": 64.7692,
+    "lon": -18.8806
+  },
+  "biome": "tundra",
+  "established": 1996,
+  "area_acres": 423679,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Iceland Park -1 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_129/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_129/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_129/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_129/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iceland Park -1 Polar Bear",
+    "species": "Polar Bear",
+    "avatar": "/mascots/default-polar-bear.svg",
+    "greeting": "Welcome to Iceland Park -1! I'm your friendly Polar Bear guide. Let me show you the wonders of this amazing park!"
+  }
+}

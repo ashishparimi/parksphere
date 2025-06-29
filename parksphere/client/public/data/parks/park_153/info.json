@@ -1,0 +1,47 @@
+{
+  "id": 152,
+  "code": "park_153",
+  "name": "Thailand Park 23",
+  "country": "Thailand",
+  "coordinates": {
+    "lat": 5.6373,
+    "lon": 101.6456
+  },
+  "biome": "tropical",
+  "established": 1967,
+  "area_acres": 31963,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Thailand Park 23 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_153/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_153/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_153/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_153/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Thailand Park 23 Parrot",
+    "species": "Parrot",
+    "avatar": "/mascots/default-parrot.svg",
+    "greeting": "Welcome to Thailand Park 23! I'm your friendly Parrot guide. Let me show you the wonders of this amazing park!"
+  }
+}

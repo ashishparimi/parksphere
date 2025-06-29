@@ -1,0 +1,40 @@
+{
+  "id": 104,
+  "code": "kruger",
+  "name": "Kruger",
+  "country": "South Africa",
+  "coordinates": {
+    "lat": -23.9884,
+    "lon": 31.5547
+  },
+  "biome": "savanna",
+  "established": 1898,
+  "area_acres": 4862170,
+  "summary": "Kruger is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/kruger/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/kruger/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/kruger/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/kruger/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Kruger Lion",
+    "species": "Lion",
+    "avatar": "/mascots/default-lion.svg",
+    "greeting": "Welcome to Kruger! I'm your friendly Lion guide. Let me show you the wonders of this amazing park!"
+  }
+}

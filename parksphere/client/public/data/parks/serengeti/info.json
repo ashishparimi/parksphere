@@ -1,0 +1,40 @@
+{
+  "id": 103,
+  "code": "serengeti",
+  "name": "Serengeti",
+  "country": "Tanzania",
+  "coordinates": {
+    "lat": -2.3333,
+    "lon": 34.8333
+  },
+  "biome": "savanna",
+  "established": 1951,
+  "area_acres": 3648000,
+  "summary": "Serengeti is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/serengeti/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/serengeti/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/serengeti/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/serengeti/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Serengeti Lion",
+    "species": "Lion",
+    "avatar": "/mascots/default-lion.svg",
+    "greeting": "Welcome to Serengeti! I'm your friendly Lion guide. Let me show you the wonders of this amazing park!"
+  }
+}

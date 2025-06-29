@@ -1,0 +1,47 @@
+{
+  "id": 43,
+  "code": "park_44",
+  "name": "Iceland Park -86",
+  "country": "Iceland",
+  "coordinates": {
+    "lat": 65.0489,
+    "lon": -15.4582
+  },
+  "biome": "tundra",
+  "established": 1988,
+  "area_acres": 465300,
+  "activities": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Photography",
+    "Camping",
+    "Nature Tours"
+  ],
+  "summary": "Iceland Park -86 is renowned for its stunning natural beauty and diverse ecosystems.",
+  "gallery": [
+    {
+      "url": "/images/parks/park_44/1.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_44/2.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    },
+    {
+      "url": "/images/parks/park_44/3.jpg",
+      "blur": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQ==",
+      "attribution": "Park Authority"
+    }
+  ],
+  "satellite": "/images/parks/park_44/satellite.jpg",
+  "climate": "Varies by season",
+  "nasa_validated": false,
+  "mascot": {
+    "name": "Iceland Park -86 Arctic Fox",
+    "species": "Arctic Fox",
+    "avatar": "/mascots/default-arctic-fox.svg",
+    "greeting": "Welcome to Iceland Park -86! I'm your friendly Arctic Fox guide. Let me show you the wonders of this amazing park!"
+  }
+}
