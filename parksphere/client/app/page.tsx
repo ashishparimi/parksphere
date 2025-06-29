@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { Park, Trail } from '@/lib/types';
 
@@ -299,21 +299,80 @@ export default function Home() {
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [hasMoreParks, setHasMoreParks] = useState(true);
   const BATCH_SIZE = 10; // Increased for 200 parks
-  
-  // Define fetchParks before using it in useEffect
-  const fetchParks = useCallback(async () => {
+  useEffect(() => {
+    console.log('[MOUNT] Component mounting...');
+    setMounted(true);
+    console.log('[MOUNT] Calling fetchParks...');
+    
+    // Call fetchParks immediately
+    fetchParks();
+    
+    // Prevent scrolling on the body
+    document.body.style.overflow = 'hidden';
+    
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
+  // Add keyboard shortcut for search (Cmd/Ctrl + K)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setShowSearch(true);
+      }
+      if (e.key === 'Escape') {
+        setShowSearch(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  const loadMoreParks = () => {
+    if (!hasMoreParks || isLoadingMore) return;
+    
+    setIsLoadingMore(true);
+    
+    // Simulate network delay for progressive feel
+    setTimeout(() => {
+      const start = currentBatch * BATCH_SIZE;
+      const end = start + BATCH_SIZE;
+      const nextBatch = allParksData.slice(start, end);
+      
+      console.log('[PROGRESSIVE] Loading batch', currentBatch + 1, '- parks', start, 'to', end);
+      
+      // Add new parks to existing ones
+      setParks(prev => [...prev, ...nextBatch]);
+      setFilteredParks(prev => [...prev, ...nextBatch]);
+      
+      // Update batch counter
+      setCurrentBatch(prev => prev + 1);
+      
+      // Check if we have more parks to load
+      setHasMoreParks(end < allParksData.length);
+      setIsLoadingMore(false);
+      
+      console.log('[PROGRESSIVE] Now showing', parks.length + nextBatch.length, 'of', allParksData.length, 'parks');
+    }, 500); // 500ms delay for smooth UX
+  };
+
+  const fetchParks = async () => {
     try {
       console.log('[1] Starting fetchParks...');
       setError(null); // Clear any previous errors
       
       console.log('[2] Fetching /data/parks.json...');
       const url = '/data/parks.json';
-      console.log('[2b] Full URL:', typeof window !== 'undefined' ? window.location.origin + url : url);
+      console.log('[2b] Full URL:', window.location.origin + url);
       const response = await fetch(url);
       
       console.log('[3] Response received:', { 
         status: response.status, 
-        ok: response.ok
+        ok: response.ok,
+        headers: response.headers
       });
       
       if (!response.ok) {
@@ -344,11 +403,6 @@ export default function Home() {
       setHasMoreParks(parksData.length > BATCH_SIZE);
       
       console.log('[7] Progressive loading initialized - showing', firstBatch.length, 'of', parksData.length, 'parks');
-      
-      // Start progressive background loading
-      if (parksData.length > BATCH_SIZE) {
-        startProgressiveBackgroundLoad(parksData, BATCH_SIZE);
-      }
     } catch (err) {
       console.error('[ERROR] fetchParks failed:', err);
       setError(err instanceof Error ? err.message : 'Failed to load parks');
@@ -356,133 +410,7 @@ export default function Home() {
       console.log('[8] Setting loading to false');
       setLoading(false);
     }
-  }, []);
-
-  // Progressive background loading function
-  const startProgressiveBackgroundLoad = (allData: Park[], batchSize: number) => {
-    console.log('[BACKGROUND] Starting progressive background loading...');
-    let currentIndex = batchSize;
-    
-    const loadNextBatch = () => {
-      if (currentIndex >= allData.length) {
-        console.log('[BACKGROUND] All parks loaded in background');
-        return;
-      }
-      
-      const nextBatch = allData.slice(currentIndex, currentIndex + batchSize);
-      console.log(`[BACKGROUND] Loading batch starting at index ${currentIndex}, size: ${nextBatch.length}`);
-      
-      // Preload park data in background without updating UI
-      setAllParksData(prev => {
-        // Data is already there, but this ensures it's ready
-        return prev;
-      });
-      
-      currentIndex += batchSize;
-      
-      // Continue loading next batch after a delay
-      setTimeout(loadNextBatch, 2000); // 2 second delay between background loads
-    };
-    
-    // Start background loading after initial render
-    setTimeout(loadNextBatch, 3000); // Start after 3 seconds
   };
-
-  useEffect(() => {
-    console.log('[MOUNT] Component mounting...');
-    setMounted(true);
-    console.log('[MOUNT] Calling fetchParks...');
-    
-    // Call fetchParks immediately
-    fetchParks();
-    
-    // Prevent scrolling on the body
-    document.body.style.overflow = 'hidden';
-    
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-  }, [fetchParks]);
-
-  // Add keyboard shortcut for search (Cmd/Ctrl + K)
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-        e.preventDefault();
-        setShowSearch(true);
-      }
-      if (e.key === 'Escape') {
-        setShowSearch(false);
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
-
-  const loadMoreParks = useCallback(() => {
-    console.log('[LOAD MORE] Button clicked', {
-      hasMoreParks,
-      isLoadingMore,
-      currentBatch,
-      parksLength: parks.length,
-      allParksDataLength: allParksData.length
-    });
-    
-    if (!hasMoreParks || isLoadingMore || allParksData.length === 0) {
-      console.log('[LOAD MORE] Early return - conditions not met');
-      return;
-    }
-    
-    setIsLoadingMore(true);
-    
-    // Simulate network delay for progressive feel
-    setTimeout(() => {
-      try {
-        const start = currentBatch * BATCH_SIZE;
-        const end = start + BATCH_SIZE;
-        const nextBatch = allParksData.slice(start, end);
-        
-        console.log('[LOAD MORE] Loading batch', currentBatch + 1, '- parks', start, 'to', end, 'nextBatch length:', nextBatch.length);
-        
-        if (nextBatch.length === 0) {
-          console.log('[LOAD MORE] No more parks to load');
-          setHasMoreParks(false);
-          setIsLoadingMore(false);
-          return;
-        }
-        
-        // Add new parks to existing ones
-        setParks(prev => {
-          const newParks = [...prev, ...nextBatch];
-          console.log('[LOAD MORE] Updated parks array length:', newParks.length);
-          return newParks;
-        });
-        
-        setFilteredParks(prev => {
-          const newFiltered = [...prev, ...nextBatch];
-          console.log('[LOAD MORE] Updated filtered parks array length:', newFiltered.length);
-          return newFiltered;
-        });
-        
-        // Update batch counter
-        const newBatchNumber = currentBatch + 1;
-        setCurrentBatch(newBatchNumber);
-        console.log('[LOAD MORE] Updated batch counter:', newBatchNumber);
-        
-        // Check if we have more parks to load
-        const hasMore = end < allParksData.length;
-        setHasMoreParks(hasMore);
-        setIsLoadingMore(false);
-        
-        console.log('[LOAD MORE] Load complete - hasMore:', hasMore, 'total parks shown:', parks.length + nextBatch.length);
-      } catch (error) {
-        console.error('[LOAD MORE] Error loading more parks:', error);
-        setIsLoadingMore(false);
-      }
-    }, 500); // 500ms delay for smooth UX
-  }, [hasMoreParks, isLoadingMore, currentBatch, parks.length, allParksData, BATCH_SIZE]);
-
 
   // Show loading state
   if (!mounted || loading) {
@@ -683,20 +611,12 @@ export default function Home() {
                 Filtered: {filteredParks.length} of {parks.length} parks
               </div>
             )}
-            {(() => {
-              const showButton = parks.length < allParksData.length;
-              console.log('[RENDER] Load More button visibility:', {
-                showButton,
-                parksLength: parks.length,
-                allParksDataLength: allParksData.length,
-                condition: `${parks.length} < ${allParksData.length} = ${showButton}`
-              });
-              return showButton && (
-                <button
-                  onClick={loadMoreParks}
-                  disabled={isLoadingMore}
-                  className="bg-blue-500/20 backdrop-blur-md px-3 py-1.5 rounded-full text-blue-400 text-sm inline-flex items-center gap-2 hover:bg-blue-500/30 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-                >
+            {parks.length < allParksData.length && (
+              <button
+                onClick={loadMoreParks}
+                disabled={isLoadingMore}
+                className="bg-blue-500/20 backdrop-blur-md px-3 py-1.5 rounded-full text-blue-400 text-sm inline-flex items-center gap-2 hover:bg-blue-500/30 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              >
                 {isLoadingMore ? (
                   <>
                     <div className="w-4 h-4 border-2 border-blue-400/30 border-t-blue-400 rounded-full animate-spin" />
@@ -710,9 +630,8 @@ export default function Home() {
                     <span>Load More: {parks.length} of {allParksData.length} parks</span>
                   </>
                 )}
-                </button>
-              );
-            })()}
+              </button>
+            )}
           </div>
         )}
       </div>
